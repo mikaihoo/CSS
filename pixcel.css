@@ -158,6 +158,14 @@
 	  font-family: Arial;
 	  font-size: 12px;
 	  z-index: 9001;
+	font-size: 12px;
+color: #f7f7f7;
+text-shadow: 0px 0px 0px #000;
+-webkit-text-shadow: 0px 0px 0px #000;
+-moz-text-shadow: 0px 0px 0px #000;
+-o-text-shadow: 0px 0px 0px #000;
+-ms-text-shadow: 0px 0px 0px #000;
+
 	}
 
 	.pixel-perfect-hidden {
@@ -258,11 +266,6 @@
 	  font-family: Arial;
 	  font-size: 12px;
 	  color: black;
-    text-shadow: 0px 0px 8px #ffffff;
--webkit-text-shadow: 0px 0px 8px #ffffff;
--moz-text-shadow: 0px 0px 8px #ffffff;
--o-text-shadow: 0px 0px 8px #ffffff;
--ms-text-shadow: 0px 0px 8px #ffffff;
 	}
 
 	[draggable] {
