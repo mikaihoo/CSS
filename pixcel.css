@@ -1,5 +1,5 @@
 	#pixel-perfect-container .pixel-perfect-switch {
-	  position: absolute;
+	  position: fixed;
 	  z-index: 9999;
 	  right: 30px;
 	  top: 30px;
