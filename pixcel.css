@@ -1,288 +1,202 @@
-	#pixel-perfect-container .pixel-perfect-switch {
-	  position: fixed;
-	  z-index 9999;
-	  right: 30px;
-	  top: 30px;
-	  font-size: 20px;
-	  font-weight: bold;
-	  cursor: pointer;
-	}
-
-	#pixel-perfect-container .pixel-perfect-overlay {
-	  position: absolute;
-	  display: block;
-	  top: 0;
-	  left: 0;
-	  z-index: 9000;
-	  opacity: 0.8;
-	  cursor: move;
-
-	}
-
-
-	#pixel-perfect-container {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  font-family: Arial;
-	  font-size: 12px;
-	  z-index: 9001;
-	}
-
-	.pixel-perfect-hidden {
-	  display: none !important;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel {
-	  position: fixed;
-	  top: 5px;
-	  right: 5px;
-	  width: 200px;
-	  z-index: 9002;
-	  border: 3px solid #333;
-	  -webkit-border-radius: 5px;
-	  -moz-border-radius: 5px;
-	  -ms-border-radius: 5px;
-	  -o-border-radius: 5px;
-	  border-radius: 5px;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel>div {
-	  position: relative;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-footer {
-	  padding: 12px 5px;
-	  cursor: move;
-	  background-size: auto auto;
-	  background-color: rgba(255, 255, 255, 0);
-	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(1, 237, 255, 0.23) 1px, rgba(1, 237, 255, 0.23) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-footer a,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:hover,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:link,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:focus,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:active {
-	  color: black;
-	  text-decoration: none;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-main {
-	  background-size: auto auto;
-	  background-color: rgba(255, 255, 255, 0);
-	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-main>div {
-	  padding: 6px 0;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-close {
-	  position: absolute;
-	  top: 0;
-	  right: 0;
-	  padding: 3px 5px;
-	  border-radius: 0 0 0 5px;
-	  cursor: pointer;
-	  outline: 0;
-	  color: red;
-
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings {
-	  outline: 0;
-	  border: 0;
-	  padding: 6px 0;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings fieldset {
-	  border: 0;
-	  margin: 0;
-	  padding: 2px 0;
-
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings label {
-	  display: inline-block;
-	  margin: 0;
-	  padding: 0;
-	  width: 50px;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings input {
-	  display: inline-block;
-	  padding: 0;
-	  width: 130px;
-	  font-size: 100%;
-	  margin: 0;
-	  vertical-align: baseline;
-	  *vertical-align: middle;
-	  border: 1px solid #333;
-	  border-radius: 5px;
-	  outline: none;
-	  padding: 0px 5px;
-	  box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  font-family: Arial;
-	  font-size: 12px;
-	  color: black;
-		#pixel-perfect-container .pixel-perfect-switch {
-	  position: fixed;
-	  z-index: 9999;
-	  right: 30px;
-	  top: 30px;
-	  font-size: 20px;
-	  font-weight: bold;
-	  cursor: pointer;
-	}
-
-	#pixel-perfect-container .pixel-perfect-overlay {
-	  position: absolute;
-	  display: block;
-	  top: 0;
-	  left: 0;
-	  z-index: 9000;
-	  opacity: 0.8;
-	  cursor: move;
-
-	}
-
-
-	#pixel-perfect-container {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  font-family: Arial;
-	  font-size: 12px;
-	  z-index: 9001;
-	font-size: 12px;
-color: #f7f7f7;
-text-shadow: 0px 0px 0px #000;
--webkit-text-shadow: 0px 0px 0px #000;
--moz-text-shadow: 0px 0px 0px #000;
--o-text-shadow: 0px 0px 0px #000;
--ms-text-shadow: 0px 0px 0px #000;
-
-	}
-
-	.pixel-perfect-hidden {
-	  display: none !important;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel {
-	  position: fixed;
-	  top: 5px;
-	  right: 5px;
-	  width: 200px;
-	  z-index: 9002;
-	  border: 3px solid #333;
-	  -webkit-border-radius: 5px;
-	  -moz-border-radius: 5px;
-	  -ms-border-radius: 5px;
-	  -o-border-radius: 5px;
-	  border-radius: 5px;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel>div {
-	  position: relative;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-footer {
-	  padding: 12px 5px;
-	  cursor: move;
-	  background-size: auto auto;
-	  background-color: rgba(255, 255, 255, 0);
-	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(1, 237, 255, 0.23) 1px, rgba(1, 237, 255, 0.23) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-footer a,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:hover,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:link,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:focus,
-	#pixel-perfect-container .pixel-perfect-panel-footer a:active {
-	  color: black;
-	  text-decoration: none;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-main {
-	  background-size: auto auto;
-	  background-color: rgba(255, 255, 255, 0);
-	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-main>div {
-	  padding: 6px 0;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-close {
-	  position: absolute;
-	  top: 0;
-	  right: 0;
-	  padding: 3px 5px;
-	  border-radius: 0 0 0 5px;
-	  cursor: pointer;
-	  outline: 0;
-	  color: red;
-
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings {
-	  outline: 0;
-	  border: 0;
-	  padding: 6px 0;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings fieldset {
-	  border: 0;
-	  margin: 0;
-	  padding: 2px 0;
-
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings label {
-	  display: inline-block;
-	  margin: 0;
-	  padding: 0;
-	  width: 50px;
-	}
-
-	#pixel-perfect-container .pixel-perfect-panel-settings input {
-	  display: inline-block;
-	  padding: 0;
-	  width: 130px;
-	  font-size: 100%;
-	  margin: 0;
-	  vertical-align: baseline;
-	  *vertical-align: middle;
-	  border: 1px solid #333;
-	  border-radius: 5px;
-	  outline: none;
-	  padding: 0px 5px;
-	  box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  font-family: Arial;
-	  font-size: 12px;
-	  color: black;
-	}
-		
-.pixel-perfect-overlay-rotate{
-transform: rotate3d(0, 0, 1, 360deg);
--webkit-transform: rotate3d(0, 0, 1, 360deg);
-transform-origin: center center;
-transition: all 0.2s ease 0s;
--webkit-transform-origin: center center;
--webkit-transition: all 0.2s ease 0s;
+.pixel-perfect-overlay-btn {
+  　display: inline-block;
+  padding: px px;
+  border: solid 2px black;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+  text-decoration: none;
+  font-weight: bold;
 }
-	[draggable] {
-	  -moz-user-select: none;
-	  -khtml-user-select: none;
-	  -webkit-user-select: none;
-	  user-select: none;
-	  /* Required to make elements draggable in old WebKit */
-	  -khtml-user-drag: element;
-	  -webkit-user-drag: element;
 
-	}
+.pixel-perfect-settings-btn {
+  display: inline-block;
+  padding: px px;
+  border: solid 2px black;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.pixel-perfect-overlay-image {
+ display: inline-block;
+  padding: px px;
+  border: solid 2px black;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  background: rgba(215, 44, 44, 0.5);
+
+}
+
+.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate {
+background-size: auto auto;
+background-color: rgba(255, 255, 255, 1);
+background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255, 1, 228, 0.94) 1px, rgba(255, 1, 228, 0.94) 2px );
+  }
+
+#pixel-perfect-container {
+  .pixel-perfect-switch {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .pixel-perfect-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    opacity: 0.8;
+    cursor: move;
+    color: black;
+    border-radius: 5px;
+  }
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: Arial;
+  font-size: 12px;
+  z-index: 9001;
+}
+
+.pixel-perfect-hidden {
+  display: none !important;
+}
+
+#pixel-perfect-container {
+  .pixel-perfect-panel {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 200px;
+    z-index: 9002;
+    border: 3px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    > div {
+      position: relative;
+      color: white;
+      text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+    }
+  }
+
+  .pixel-perfect-panel-footer {
+    padding: 12px 5px;
+    cursor: move;
+    background-size: auto auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(1, 237, 255, 0.23) 1px, rgba(1, 237, 255, 0.23) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.7);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+
+    a {
+      background-color: rgba(215, 44, 44, 0.5);
+      background: rgba(215, 44, 44, 0.5);
+      text-decoration: none;
+
+      &:hover, &:link, &:focus, &:active {
+        background-color: rgba(215, 44, 44, 0.5);
+        background: rgba(215, 44, 44, 0.5);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .pixel-perfect-panel-main {
+    background-size: auto auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
+
+    > div {
+      padding: 6px 0;
+    }
+  }
+
+  .pixel-perfect-panel-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 5px;
+    border-radius: 0 0 0 5px;
+    cursor: pointer;
+    outline: 0;
+    color: red;
+  }
+
+  .pixel-perfect-panel-settings {
+    outline: 0;
+    border: 0;
+    padding: 6px 0;
+
+    fieldset {
+      border: 0;
+      margin: 0;
+      padding: 2px 0;
+    }
+
+    label {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 50px;
+    }
+
+    input {
+      display: inline-block;
+      padding: 0;
+      width: 130px;
+      font-size: 100%;
+      margin: 0;
+      vertical-align: baseline;
+      *vertical-align: middle;
+      border: 1px solid #333;
+      border-radius: 5px;
+      outline: none;
+      padding: 0px 5px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-family: Arial;
+      font-size: 12px;
+      color: black;
+      text-shadow: 0px 0px 8px #ffffff;
+      -webkit-text-shadow: 0px 0px 8px #ffffff;
+      -moz-text-shadow: 0px 0px 8px #ffffff;
+      -o-text-shadow: 0px 0px 8px #ffffff;
+      -ms-text-shadow: 0px 0px 8px #ffffff;
+    }
+  }
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
