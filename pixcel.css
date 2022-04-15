@@ -164,7 +164,7 @@
   color: black;
 }
 
-[draggable] {
+#draggable {
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -172,4 +172,19 @@
   /* Required to make elements draggable in old WebKit */
   -khtml-user-drag: element;
   -webkit-user-drag: element;
+}
+#dialogContent {
+    ?
+    /*
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    */  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
