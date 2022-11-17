@@ -30,7 +30,7 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate {
+.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter {
   background-color: rgba(215, 44, 44, 0.7);
   background: rgba(215, 44, 44, 0.7);
   color: rgba(215, 44, 44, 0.7);
