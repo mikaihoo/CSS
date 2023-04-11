@@ -4,7 +4,7 @@ m1 {
   left: 50%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1em + 1vw);
+    font-size: calc(1em + 0vw);
     font-weight: 1em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
