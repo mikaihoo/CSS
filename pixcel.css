@@ -4,7 +4,7 @@ m1 {
   left: 50%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.8em + 1vw);
     font-weight: 1em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -19,7 +19,7 @@ m1 {
 m1 span {
 position: absolute;
 
-    transform: translate(50%, 50%);
+    transform: translate(-50%, -50%);
     -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
             clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
 }
