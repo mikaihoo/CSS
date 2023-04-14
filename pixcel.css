@@ -92,9 +92,9 @@ m1::after {
 }
 
 .button {
-  display: inline-block;
+  display: ;
   padding: px px;
-  border: solid 2px black;
+  border: solid 2px ;
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.2);
   color: white;
