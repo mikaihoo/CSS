@@ -4,7 +4,7 @@ m1 {
   left: 50%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.vw);
+    font-size: calc(0.6vw);
     font-weight: 1em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -92,7 +92,9 @@ m1::after {
 }
 
 #button {
-{"bg":{"hex":"#ffffff","a":1},"stripes":[{"rotateValue":0,"strokeWidth":1,"spaceWidth":1,"colors":{"hex":"#E4FF01","a":0.14}}]}
+border: solid 2px black;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .pixel-perfect-overlay-btn {
