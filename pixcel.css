@@ -4,7 +4,7 @@ m1 {
   left: 50%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.6vw);
+    font-size: calc(1vw);
     font-weight: 1em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -91,8 +91,7 @@ m1::after {
     }
 }
 
-#button {
-border: solid 2px black;
+button {
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.2);
 }
