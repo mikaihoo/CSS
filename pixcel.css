@@ -2,7 +2,7 @@ x1 {
 	z-index: 9999;
     position: static;
 		top: 0;
-    left: -100;
+    left: -150;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(1px + 1vw);
     font-weight: 700;
