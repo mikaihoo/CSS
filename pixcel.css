@@ -17,10 +17,10 @@ x1 {
 }
 
 x1 span {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-250%, -250%);
+    transform: translate(-400%, -400%);
 
 }
 
