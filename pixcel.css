@@ -17,12 +17,13 @@ x1 {
 }
 
 x1 span {
-    position: relative;
+    position: static;
     top: 0;
     left: 0;
-    transform: translate(20%, 0%);
+    transform: translate(-100%, -100%);
 
 }
+
 
 x1::before,
 x1::after {
