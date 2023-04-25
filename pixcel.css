@@ -1,6 +1,6 @@
 x1 {
 	z-index: 9999;
-    position: relative;
+    position: absolute;
 		top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -17,7 +17,7 @@ x1 {
 }
 
 x1 span {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     transform: translate(100%, 0%);
