@@ -20,7 +20,7 @@ x1 span {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-80%, 0%);
+    transform: translate(-64%, 10%);
 
 }
 
@@ -94,7 +94,7 @@ x1::after {
 m1 {
     position: static;
   top: 0%;
-  left: 50%;
+  left: 0%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(0.4em + 1vw);
@@ -112,7 +112,7 @@ m1 {
 m1 span {
 position: absolute;
 
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
             clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
 }
