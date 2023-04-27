@@ -17,6 +17,7 @@ x1 {
 }
 
 x1 span {
+    opacity:0.3
     transform: translate(-120%, 15%);
     position: fixed;
     top: 0;
@@ -94,10 +95,10 @@ x1::after {
 
 m1 {
   position: static;
-  z-index: 10000;
+  
   top: 0%;
   left: 0%;
-  margin: 1vw;
+  margin: 1px;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(1px + 1vh);
     font-weight: 0.5em;
@@ -109,11 +110,12 @@ m1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear infinite;
+    transform: translate(-30%, -30%);
 }
 
 m1 span {
 position: absolute;
-transform: translate(-40%, -40%);
+z-index: 10000;
 
 }
 m1::before,
