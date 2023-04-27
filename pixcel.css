@@ -92,7 +92,7 @@ x1::after {
 }	
 
 m1 {
-    position: static;
+    position: absolute;
   top: 0%;
   left: 0%;
   margin: auto;
