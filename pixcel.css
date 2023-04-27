@@ -1,5 +1,5 @@
 x1 {
-	z-index: 9001;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@ x1 span {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-74%, 5%);
+    transform: translate(-44%, 5%);
 
 }
 
@@ -92,10 +92,10 @@ x1::after {
 }	
 
 m1 {
-    position: static;
+  position: static;
   top: 0%;
   left: 0%;
-  margin: auto;
+  margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
