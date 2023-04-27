@@ -97,7 +97,7 @@ m1 {
   left: 0%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1px + 0.5vw);
+    font-size: calc(1px + 0.5vh);
     font-weight: 0.5em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
