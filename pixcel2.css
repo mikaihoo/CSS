@@ -3,7 +3,7 @@ x1 {
     z-index: 10000;
     position: absolute;
     top: 0;
-    left: -80;
+    left: -120;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(1px + 0.5vw);
     font-weight: 700;
