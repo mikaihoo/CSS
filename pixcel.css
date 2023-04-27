@@ -97,7 +97,7 @@ m1 {
   left: 0%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1px + 0.5vw);
+    font-size: calc(1px + 1vw);
     font-weight: 1em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -113,7 +113,7 @@ m1 span {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -25%);
 
 }
 m1::before,
