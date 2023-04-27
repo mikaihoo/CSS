@@ -92,8 +92,9 @@ x1::after {
 }	
 
 m1 {
-    position: absolute;
-  top: 0%;
+  position: absolute;
+  	z-index: 9002;
+	top: 0%;
   left: 0%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
