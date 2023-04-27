@@ -1,11 +1,11 @@
 x1 {
-
+    z-index: 9003;
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(-140%, 10%);
+    transform: translate(-50%, 10%);
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.4em + 0.5vh);
+    font-size: calc(1em + 0.5vw);
     font-weight: 700;
     color: yellow;
     letter-spacing: 0.02em;
@@ -94,11 +94,12 @@ x1::after {
 
 m1 {
   position: static;
+  z-index: 9003;
   top: 0%;
   left: 0%;
   margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.4em + 1vw);
+    font-size: calc(0.4em + 1vh);
     font-weight: 0.5em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -309,6 +310,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   padding: 6px 0;
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
+  z-index: 9003;
   position: absolute;
   top: 0;
   right: 0;
