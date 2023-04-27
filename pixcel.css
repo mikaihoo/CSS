@@ -1,7 +1,7 @@
 x1 {
 	z-index: 9001;
     position: absolute;
-		top: 0;
+    top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(1px + 0.5vw);
@@ -113,8 +113,7 @@ m1 span {
 position: absolute;
 
     transform: translate(-50%, -50%);
-    -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
-            clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
+
 }
 m1::before,
 m1::after {
