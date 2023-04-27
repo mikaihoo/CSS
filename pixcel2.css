@@ -1,6 +1,6 @@
 x1 {
-    opacity:0.3;
     z-index: 10000;
+    opacity:0.3;
     position: absolute;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@ x1 {
 }
 
 x1 span {
-   
+   position: relative;
     transform: translate(140%, 5%);
     position: fixed;
     top: 0;
@@ -96,7 +96,6 @@ x1::after {
 
 m1 {
   position: static;
-  
   top: 0%;
   left: 0%;
   margin: 1px;
