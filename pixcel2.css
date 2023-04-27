@@ -22,7 +22,7 @@ x1 span {
     top: 0;
     left: 0;
     position: fixed;
-   
+   transform: translate(-64%, 10%);
 }
 
 
@@ -116,7 +116,7 @@ m1 span {
     left: 0;
 position: absolute;
 z-index: 10000;
-
+ transform: translate(-50%, -50%);
 }
 m1::before,
 m1::after {
