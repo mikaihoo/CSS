@@ -1,7 +1,7 @@
 x1 {
     z-index: 10000;
     opacity:0.3;
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -15,16 +15,14 @@ x1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
+    transform: translate(-50%, 5%);
 }
 
 x1 span {
-   position: relative;
-    transform: translate(0%, 5%);
-    position: fixed;
     top: 0;
     left: 0;
+    position: fixed;
    
-
 }
 
 
