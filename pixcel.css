@@ -14,13 +14,14 @@ x1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
+      transform: translate(-100%, 5%);
 }
 
 x1 span {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-100%, 5%);
+  
 
 }
 
