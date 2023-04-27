@@ -19,7 +19,7 @@ x1 {
 
 x1 span {
    position: relative;
-    transform: translate(140%, 5%);
+    transform: translate(0%, 5%);
     position: fixed;
     top: 0;
     left: 0;
@@ -114,6 +114,8 @@ m1 {
 }
 
 m1 span {
+    top: 0;
+    left: 0;
 position: absolute;
 z-index: 10000;
 
