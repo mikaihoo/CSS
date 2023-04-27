@@ -1,5 +1,5 @@
 x1 {
-	z-index: 9002;
+	z-index: 9001;
     position: absolute;
     top: 0;
     left: 0;
@@ -92,16 +92,15 @@ x1::after {
 }	
 
 m1 {
-  position: absolute;
-  	z-index: 9002;
-	top: 0%;
+    position: static;
+  top: 0%;
   left: 0%;
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1px + 1vw);
-    font-weight: 2em;
+    font-size: calc(0.4em + 1vw);
+    font-weight: 1em;
     color: #cd0cc8;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     text-shadow: 0 0 0.15em #1da9cc;
     user-select: none;
@@ -111,9 +110,8 @@ m1 {
 }
 
 m1 span {
-    position: fixed;
-    top: 0;
-    left: 0;
+position: absolute;
+
     transform: translate(-50%, -50%);
 
 }
