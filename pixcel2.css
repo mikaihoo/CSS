@@ -3,6 +3,7 @@ x1 {
     position: absolute;
     top: 0;
     left: 0;
+    transform: translate(-140%, 10%);
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(0.4em + 0.5vh);
     font-weight: 700;
@@ -20,7 +21,7 @@ x1 span {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-140%, 10%);
+   
 
 }
 
