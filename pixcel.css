@@ -98,9 +98,9 @@ m1 {
   margin: auto;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(1px + 1vw);
-    font-weight: 1em;
+    font-weight: 2em;
     color: #cd0cc8;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     text-shadow: 0 0 0.15em #1da9cc;
     user-select: none;
@@ -113,7 +113,7 @@ m1 span {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -50%);
 
 }
 m1::before,
