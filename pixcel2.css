@@ -4,7 +4,7 @@ x1 {
     top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1px + 0.5vh);
+    font-size: calc(0.4em + 0.5vh);
     font-weight: 700;
     color: yellow;
     letter-spacing: 0.02em;
@@ -19,8 +19,8 @@ x1 {
 x1 span {
     position: fixed;
     top: 0;
-    left: 50;
-    transform: translate(-40%, 10%);
+    left: 0;
+    transform: translate(-140%, 10%);
 
 }
 
