@@ -3,9 +3,8 @@ x1 {
     position: absolute;
     top: 0;
     left: 0;
-    
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(1px + 0.5vw);
     font-weight: 700;
     color: yellow;
     letter-spacing: 0.02em;
@@ -18,7 +17,7 @@ x1 {
 }
 
 x1 span {
-    transform: translate(120%, 15%);
+    transform: translate(-120%, 15%);
     position: fixed;
     top: 0;
     left: 0;
@@ -100,7 +99,7 @@ m1 {
   left: 0%;
   margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.4em + 1vh);
+    font-size: calc(1px + 1vh);
     font-weight: 0.5em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -114,8 +113,7 @@ m1 {
 
 m1 span {
 position: absolute;
-
-    transform: translate(-40%, -40%);
+transform: translate(-40%, -40%);
 
 }
 m1::before,
