@@ -1,4 +1,4 @@
-x1 {
+xyz1 {
     z-index: 10000;
     opacity:0.3;
     position: relative;
@@ -18,7 +18,7 @@ x1 {
      
 }
 
-x1 span {
+xyz1 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,21 +27,21 @@ x1 span {
 }
 
 
-x1::before,
-x1::after {
+xyz1::before,
+xyz1::after {
     content: attr(data-text);
     position: absolute;
     top: 0;
     left: 0;
 }
 
-x1::before {
+xyz1::before {
     animation: crack1 2.5s linear forwards;
     -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
             clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
 }
 
-x1::after {
+xyz1::after {
     animation: crack2 2.5s linear forwards;
     -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
             clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
