@@ -19,6 +19,7 @@ x1 {
     
 }
 x1 span {
+    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
