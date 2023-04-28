@@ -18,7 +18,11 @@ x1 {
     transform: translate(-120%, 3%);
     
 }
-
+x1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 m1 {
