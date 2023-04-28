@@ -19,7 +19,7 @@ xyz1 {
 }
 
 xyz1 span {
-    position: absolute;
+    position: static;
     transform: translate(0%, 0%);
 
   
