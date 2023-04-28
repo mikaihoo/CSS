@@ -19,7 +19,7 @@ xyz1 {
 
 xyz1 span {
     position: absolute;
-    transform: translate( 0%, 0%);
+    transform: translate( 50%, 50%);
 
   
 
