@@ -1,5 +1,5 @@
 x1 {
-    display: inline-block;
+    display: block;
     opacity:0.3;
     position: relative;
     top: 0;
@@ -19,8 +19,7 @@ x1 {
     
 }
 x1 span {
-    display: inline-block;
-   z-index: 9998;
+
     display: block;
     position: relative;
 }
