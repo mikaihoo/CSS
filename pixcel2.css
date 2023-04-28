@@ -2,8 +2,6 @@ xyz1 {
     z-index: 10000;
     opacity:0.3;
     position: relative;
-    top: 0;
-    left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(1px + 0.5vw);
     font-weight: 700;
@@ -15,13 +13,14 @@ xyz1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
-     
+    top: 0;
+    left: 0;
 }
 
 xyz1 span {
     position: absolute;
-    top: 0;
-    left: 0;
+    transform: translate(50%, 50%);
+
   
 
 }
@@ -96,8 +95,6 @@ xyz1::after {
 m1 {
   z-index: 10000;
   position: relative;
-  top: 0%;
-  left: 0%;
   margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(0.4em + 1vw);
@@ -110,6 +107,8 @@ m1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear infinite;
+      top: 0%;
+  left: 0%;
 }
 
 m1 span {
