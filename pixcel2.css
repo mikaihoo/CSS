@@ -113,7 +113,7 @@ m1 {
 }
 
 m1 span {
-position: static;
+position: fixed;
 transform: translate(-50%, -50%);
 
 }
