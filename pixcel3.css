@@ -1,6 +1,6 @@
 x1 {
     opacity:0.3;
-    position: static;
+    position: relative;
     top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -111,7 +111,6 @@ m1 {
 
 m1 span {
 position: absolute;
-
     transform: translate(-50%, -50%);
 
 }
