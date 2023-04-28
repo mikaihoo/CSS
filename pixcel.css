@@ -1,4 +1,5 @@
 x1 {
+    z-index: 10000;
     opacity:0.3;
     position: static;
     top: 0;
