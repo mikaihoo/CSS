@@ -1,7 +1,7 @@
 x1 {
     z-index: 10000;
     opacity:0.3;
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -95,7 +95,7 @@ x1::after {
 
 m1 {
   z-index: 10000;
-  position: absolute;
+  position: static;
   top: 0%;
   left: 0%;
   margin: 1vw;
@@ -113,7 +113,7 @@ m1 {
 }
 
 m1 span {
-position: static;
+position: absolute;
 transform: translate(-50%, -50%);
 
 }
