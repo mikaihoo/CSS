@@ -20,7 +20,7 @@ x1 {
 }
 
 x1 span {
-  display: inline-block;
+  display: inline;
   position: absolute;
   transform: translate(-120%, 3%);
 }
