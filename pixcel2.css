@@ -19,7 +19,7 @@ x1 {
 }
 
 x1 span {
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;
   
