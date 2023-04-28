@@ -14,8 +14,8 @@ xyz1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
-    top: 100;
-    left: 5;
+    top: 120;
+    left: 0;
 }
 
 xyz1 span {
