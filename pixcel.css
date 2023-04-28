@@ -1,4 +1,5 @@
 x1 {
+    z-index: 9998;
     display: block;
     opacity:0.3;
     position: relative;
@@ -15,7 +16,7 @@ x1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
-    transform: translate(-200%, 3%);
+    transform: translate(-200%, -200%);
     
 }
 x1 span {
