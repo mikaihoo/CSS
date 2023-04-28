@@ -16,7 +16,7 @@ x1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
-    transform: translate(-150%, 3%);
+    transform: translate(-200%, 3%);
     
 }
 x1 span {
@@ -30,7 +30,7 @@ x1 span {
 m1 {
   display: inline-block;
   position: relative;
-  top: -3%;
+  top: 0%;
   left: 0%;
   margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
