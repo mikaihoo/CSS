@@ -19,7 +19,7 @@ x1 {
 }
 
 x1 span {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
   
@@ -113,7 +113,7 @@ m1 {
 }
 
 m1 span {
-position: fixed;
+position: static;
 transform: translate(-50%, -50%);
 
 }
