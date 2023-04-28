@@ -1,6 +1,6 @@
 x1 {
     display: block;
-    z-index: 9998;
+    
     opacity:0.3;
     position: relative;
     top: 0;
@@ -20,10 +20,9 @@ x1 {
     
 }
 x1 span {
+    z-index: 9998;
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 
