@@ -1,7 +1,6 @@
 x1 {
-    z-index: 10000;
     opacity:0.3;
-    position: static;
+    position: absolute;
     top: 0;
     left: 0;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -15,14 +14,15 @@ x1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
-    transform: translate(-150%, 5%);
+     
 }
 
 x1 span {
+    position: static;
     top: 0;
     left: 0;
-    position: fixed;
-   transform: translate(-64%, 10%);
+  
+
 }
 
 
@@ -96,9 +96,9 @@ m1 {
   position: static;
   top: 0%;
   left: 0%;
-  margin: 1px;
+  margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(1px + 1vh);
+    font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -108,15 +108,12 @@ m1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear infinite;
-    transform: translate(-30%, -30%);
 }
 
 m1 span {
-    top: 0;
-    left: 0;
 position: absolute;
-z-index: 10000;
- transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+
 }
 m1::before,
 m1::after {
@@ -311,7 +308,6 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   padding: 6px 0;
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
-  z-index: 10000;
   position: absolute;
   top: 0;
   right: 0;
