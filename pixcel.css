@@ -19,7 +19,7 @@ x1 {
 }
 
 x1 span {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
   
