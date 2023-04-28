@@ -1,5 +1,4 @@
 x1 {
-    display: inline;
     z-index: 9998;
     opacity:0.3;
     position: relative;
@@ -20,7 +19,6 @@ x1 {
 }
 
 x1 span {
-  display: inline;
   position: absolute;
   transform: translate(-120%, 3%);
 }
