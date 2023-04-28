@@ -15,7 +15,7 @@ x1 {
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear forwards;
-    transform: translate(-150%, 0%);
+    transform: translate(-165%, 3%);
 }
 
 x1 span {
