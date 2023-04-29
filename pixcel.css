@@ -20,7 +20,7 @@ x1 {
 }
 x1 span {
  　 transform: translate(-300%, -300%);
-    position: relative;
+    position: absolute;
 }
 
 
