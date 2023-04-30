@@ -1,5 +1,4 @@
 x1 {
-    z-index: 9999;
     opacity:0.5;
     position: relative;
     top: 0;
@@ -19,6 +18,7 @@ x1 {
     
 }
 x1 span {
+    z-index: 9992;
  　 transform: translate(-300%, -300%);
     position: absolute;
 }
