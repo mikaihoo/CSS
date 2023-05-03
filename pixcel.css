@@ -126,7 +126,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 }
 
 .pixel-perfect-overlay-btn {
-  z-index: 9999;
+  z-index: 9992;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
@@ -137,7 +137,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 }
 
 .pixel-perfect-settings-btn {
-  z-index: 9999;
+  z-index: 9992;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
