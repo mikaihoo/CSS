@@ -322,8 +322,8 @@ opacity: 0.7;
   cursor: pointer;
   outline: 0;
   color: red;
-	filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
- 
+  filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
+  z-index: 1;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings {
   outline: 0;
