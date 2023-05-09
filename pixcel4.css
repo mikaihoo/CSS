@@ -10,9 +10,9 @@ position: fixed;
  text-transform: uppercase;
  color: var(--color);
  z-index: 1;
-   animation: blinkShadowsFilter 8s ease-in infinite;
+ animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
-
+opacity: 0.7;
 
 }
 x1 span {
@@ -24,8 +24,6 @@ x1 span {
   outline: none;
   filter: drop-shadow(4px 3px 2px #4090b5) drop-shadow(-5px -4px 5px #9e30a9);
 
-  -webkit-transform: rotateX(-56.62deg) rotateY(-58.64788975654116deg);
-  transform: rotateX(-6.62deg) rotateY(-58.64788975654116deg);
 	
 }
 
@@ -84,9 +82,10 @@ x1 span {
 m1 {
   display: inline-block;
   position: relative;
+	z-index: 1;
+	
   top: 0%;
   left: 0%;
-  margin: 1vw;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
@@ -179,10 +178,13 @@ z-index: 9992;
 background-size: auto  auto;
 background-color: rgba(255, 255, 255, 0);
 background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.14) 6px, rgba(202, 215, 87, 0.14) 7px );
+ animation: blinkShadowsFilter 8s ease-in infinite;
+  -webkit-border-radius: 11px;
+opacity: 0.7;
 }
 
 .pixel-perfect-overlay-btn {
-  z-index: 9992;
+  z-index: 2;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
@@ -193,7 +195,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 }
 
 .pixel-perfect-settings-btn {
-  z-index: 9992;
+  z-index: 2;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
@@ -218,7 +220,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
   background-color: rgba(215, 44, 44, 0.7);
   background: rgba(215, 44, 44, 0.7);
-  color: rgba(215, 44, 44, 0.7);
+ 
 	
 }
 
@@ -230,12 +232,6 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   font-family: Arial;
   font-size: 12px;
   z-index: 9001;
-  background: rgba(255, 255, 255, 0.664);
-  padding: 10px 15px;
-
-
-  border-radius: 22px;
-  max-width: 300px;
 
 }
 #pixel-perfect-container .pixel-perfect-switch {
@@ -346,9 +342,8 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   width: 50px;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings input {
-  background-color: rgba(215, 44, 44, 0.7);
-  background: rgba(215, 44, 44, 0.7);
-  color: rgba(215, 44, 44, 0.7);
+	background-color: rgba(215, 44, 44, 0.2);
+    border: 3px solid #333;
   display: inline-block;
   padding: 0;
   width: 150px;
@@ -356,7 +351,6 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle;
-  border: 1px solid #333;
   border-radius: 5px;
   outline: none;
   padding: 0px 5px;
@@ -364,7 +358,8 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   -moz-box-sizing: border-box;
   font-family: Arial;
   font-size: 12px;
-  color: black;
+  color: white;
+	
 }
 
 [draggable] {
