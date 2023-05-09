@@ -225,7 +225,6 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 }
 
 #pixel-perfect-container {
-	
   position: absolute;
   top: 0;
   left: 0;
@@ -235,7 +234,6 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   z-index: 9001;
   background: rgba(255, 255, 255, 0.664);
   padding: 10px 15px;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
