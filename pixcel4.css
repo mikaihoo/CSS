@@ -23,7 +23,7 @@ x1 span {
   padding: 5px 10px;
   outline: none;
   filter: drop-shadow(4px 3px 2px #4090b5) drop-shadow(-5px -4px 5px #9e30a9);
-  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
   -webkit-transform: rotateX(-56.62deg) rotateY(-58.64788975654116deg);
   transform: rotateX(-6.62deg) rotateY(-58.64788975654116deg);
 	
