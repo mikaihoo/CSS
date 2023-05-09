@@ -9,7 +9,7 @@ position: fixed;
  font-family: inherit;
  text-transform: uppercase;
  color: var(--color);
- z-index: 0;
+ z-index: 1;
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
 opacity: 0.7;
@@ -184,7 +184,7 @@ opacity: 0.7;
 }
 
 .pixel-perfect-overlay-btn {
-  z-index: 2;
+  z-index: 1;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
@@ -195,7 +195,7 @@ opacity: 0.7;
 }
 
 .pixel-perfect-settings-btn {
-  z-index: 2;
+  z-index: 1;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
