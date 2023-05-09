@@ -9,7 +9,7 @@ position: absolute;
  font-family: inherit;
  text-transform: uppercase;
  color: var(--color);
- z-index: 1;
+ z-index: 0;
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
 opacity: 0.7;
