@@ -9,7 +9,7 @@ position: fixed;
  font-family: inherit;
  text-transform: uppercase;
  color: var(--color);
- z-index: 1;
+ z-index: -1;
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
 opacity: 0.7;
@@ -358,7 +358,7 @@ opacity: 0.7;
   -moz-box-sizing: border-box;
   font-family: Arial;
   font-size: 12px;
-  color: white;
+  color: ;
 	
 }
 
