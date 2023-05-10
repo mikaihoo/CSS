@@ -196,7 +196,7 @@ opacity: 1;
 }
 
 .pixel-perfect-settings-btn {
-  z-index: 2;
+  z-index: 9999;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
