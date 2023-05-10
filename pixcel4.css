@@ -1,5 +1,4 @@
 x1 {
-opacity: 0.7;
 position: absolute;
  --color: #00A97F;
  background-color: transparent;
@@ -10,7 +9,7 @@ position: absolute;
  font-family: inherit;
  text-transform: uppercase;
  color: var(--color);
- z-index: 0;
+ z-index: 1;
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
 opacity: 0.7;
@@ -181,7 +180,7 @@ background-color: rgba(255, 255, 255, 0);
 background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.14) 6px, rgba(202, 215, 87, 0.14) 7px );
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
-opacity: 0.7;
+opacity: 1;
 }
 
 .pixel-perfect-overlay-btn {
@@ -193,7 +192,7 @@ opacity: 0.7;
   background: rgba(0, 0, 0, 0.2);
   color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .pixel-perfect-settings-btn {
@@ -205,10 +204,11 @@ opacity: 0.7;
   background: rgba(0, 0, 0, 0.2);
   color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-  opacity: 0.7;
+opacity: 1;
 }
 
 .pixel-perfect-overlay-image {
+  z-index: 1;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
@@ -218,6 +218,7 @@ opacity: 0.7;
   text-decoration: none;
   font-weight: bold;
   font-family: Helvetica, Arial, sans-serif;
+  opacity: 1;
 }
 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
