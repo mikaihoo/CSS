@@ -311,6 +311,8 @@ color: transparent;
   background-color: rgba(215, 44, 44, 0.5);
 	background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
   text-decoration: none;
+color: transparent;
+  -webkit-text-stroke: 0.5px white;
 
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
@@ -384,7 +386,7 @@ glitch {
     font-size: 4rem; /* adjust as needed */
     font-weight: 400; /* adjust as needed */
     color: rgba(215, 44, 44, 0.5);
-    text-shadow: 0px 0px 10px yellowgreen; /* creates a subtle outline effect */
+    text-shadow: 0px 0px 10px transparent; /* creates a subtle outline effect */
 }
 
 .glitch::before,
