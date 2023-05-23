@@ -286,8 +286,8 @@ opacity: 1;
 }
 #pixel-perfect-container .pixel-perfect-panel > div {
   position: relative;
-  color: transparent;
-  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+color: transparent;
+-webkit-text-stroke:0.08px black;
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
   padding: 12px 5px;
@@ -310,7 +310,7 @@ color: transparent;
 	background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
   text-decoration: none;
 color: transparent;
--webkit-text-stroke:2px white;
+-webkit-text-stroke:0.08px white;
 
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
@@ -374,8 +374,8 @@ color: transparent;
   -moz-box-sizing: border-box;
   font-family: Arial;
   font-size: 12px;
-  color: transparent;
--webkit-text-stroke:2px white;
+color: transparent;
+-webkit-text-stroke:0.08px white;
 }
 
 glitch {	
