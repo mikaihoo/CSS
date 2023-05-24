@@ -295,13 +295,11 @@ opacity: 1;
   cursor: move;
   background-size: auto auto;
   background-color: rgba(215, 44, 44, 0.7);
-  background: rgba(215, 44, 44, 0.7);
   border-radius: 4px;
-	color: deepskyblue;
-	-webkit-text-stroke: 2px ;
       animation: lines 2s ease-out infinite;
       mix-blend-mode: color-burn;
-
+color: transparent;
+	-webkit-text-stroke: 2px rgb(0, 255, 255);
 }
 
 
@@ -371,9 +369,9 @@ opacity: 1;
   padding: 0px 5px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: Arial;
-  font-size: 12px;
-  color: white ;
+ color: white;
+  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+opacity: 1;
 }
 
 glitch {
