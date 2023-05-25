@@ -219,6 +219,7 @@ opacity: 1;
 }
 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
+  background-color: rgba(215, 44, 44, 0.7);
   background: rgba(215, 44, 44, 0.7);
  
 	
@@ -283,16 +284,17 @@ opacity: 1;
 }
 #pixel-perfect-container .pixel-perfect-panel > div {
   position: relative;
-  color: ;
+  color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
   padding: 12px 5px;
   cursor: move;
   background-size: auto auto;
+  background-color: rgba(215, 44, 44, 0.7);
   border-radius: 4px;
   color: transparent;
-	-webkit-text-stroke: 2px rgb(0, 255, 255, 0.5);
+	-webkit-text-stroke: 2px rgb(0, 255, 255, 0.2);
       animation: lines 2s ease-out infinite;
       mix-blend-mode: color-burn;
 
