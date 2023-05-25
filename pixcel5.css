@@ -90,7 +90,7 @@ m1 {
     color: var(--color);
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    text-shadow: 0 0 0.15em rgba(255,255,255,0.5);
+    text-shadow: 0 0 0.15em rgba(255,255,255,0.7);
     user-select: none;
     white-space: nowrap;
     filter: blur(0.007em);
