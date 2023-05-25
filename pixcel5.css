@@ -19,11 +19,11 @@ x1 span {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-
   padding: 5px 10px;
   outline: none;
   filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
   z-index: 1;
+ opacity: 0.5;
 	
 }
 
