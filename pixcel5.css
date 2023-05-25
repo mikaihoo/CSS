@@ -19,10 +19,10 @@ x1 span {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  background-color: rgba(255,255,255,0.4);
+
   padding: 5px 10px;
   outline: none;
-  filter: drop-shadow(4px 3px 2px #4090b5) drop-shadow(-5px -4px 5px #9e30a9);
+  filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
   z-index: 1;
 	
 }
