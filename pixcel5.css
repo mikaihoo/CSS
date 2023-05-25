@@ -295,7 +295,7 @@ opacity: 1;
   background-color: rgba(215, 44, 44, 0.7);
   border-radius: 4px;
   color: transparent;
-	-webkit-text-stroke: 2px rgb(0, 255, 255, 0.1);
+	-webkit-text-stroke: 2px rgb(0, 255, 255, 0.4);
       animation: lines 2s ease-out infinite;
       mix-blend-mode: color-burn;
 
@@ -306,12 +306,14 @@ opacity: 1;
 #pixel-perfect-container .pixel-perfect-panel-footer a {
   background-color: rgba(215, 44, 44, 0.5);
 	background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+	color: transparent;
   text-decoration: none;
 
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
   background-color: rgba(215, 44, 44, 0.5);
   background: rgba(215, 44, 44, 0.5);
+	color: transparent;
   text-decoration: none;
 }
 
