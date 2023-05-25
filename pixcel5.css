@@ -87,7 +87,7 @@ m1 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
-    color:;
+    color: var(--color);
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-shadow: 0 0 0.15em rgba(255,255,255,0.8);
