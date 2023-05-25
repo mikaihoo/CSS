@@ -1,6 +1,6 @@
 x1 {
 position: absolute;
- --color: #00A97F;
+ --color: ;
  background-color: transparent;
  border-radius: .3em;
  overflow: hidden;
@@ -297,7 +297,7 @@ opacity: 1;
       animation: lines 2s ease-out infinite;
       mix-blend-mode: color-burn;
 color: transparent;
-	-webkit-text-stroke: 2px rgba(0, 255, 255 , 0.3);
+
 }
 
 
