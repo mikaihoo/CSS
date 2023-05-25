@@ -1,7 +1,7 @@
 x1 {
 position: absolute;
  --color:transparent;
- background-color:  rgba(255,255,255,0.8);
+ background-color:  rgba(255,255,255,0.2);
  border-radius: .3em;
  overflow: hidden;
  cursor: pointer;
@@ -297,7 +297,7 @@ opacity: 1;
       animation: lines 2s ease-out infinite;
       mix-blend-mode: color-burn;
 color: transparent;
-	-webkit-text-stroke: 2px rgba(0, 255, 255 , 0.8);
+	-webkit-text-stroke: 2px rgba(0, 255, 255 , 0.3);
 }
 
 
