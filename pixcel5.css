@@ -1,7 +1,7 @@
 .img {
    
 	pixel-perfect-overlay {
-		 mix-blend-mode: overlay;
+		 background-blend-mode: overlay;
 	}
 }  
 
