@@ -1,3 +1,4 @@
+imag {
 pixel-perfect-overlay {
       position: absolute;
       top: 0;
@@ -6,7 +7,7 @@ pixel-perfect-overlay {
       height: 100%;
       mix-blend-mode: multiply;
     }
-
+ }
 
 x1 {
 position: absolute;
