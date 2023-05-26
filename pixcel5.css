@@ -1,5 +1,8 @@
 .img {
-    mix-blend-mode: overlay;
+   
+	pixel-perfect-overlay {
+		 mix-blend-mode: overlay;
+	}
 }  
 
 x1 {
