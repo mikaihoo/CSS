@@ -1,14 +1,3 @@
-imag {
-pixel-perfect-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      mix-blend-mode: multiply;
-    }
- }
-
 x1 {
 position: absolute;
  --color: #00A97F;
