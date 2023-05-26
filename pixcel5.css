@@ -1,3 +1,7 @@
+.img {
+    mix-blend-mode: overlay;
+}  
+
 x1 {
 position: absolute;
  --color: #00A97F;
