@@ -28,16 +28,9 @@ position: absolute;
   -webkit-border-radius: 11px;
 opacity: 0.7;
 }
-x1 span {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  padding: 5px 10px;
-  outline: none;
-  filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
+
 	
-}
+
 
 @keyframes backglitch {
   0% {
@@ -202,7 +195,7 @@ opacity: 1;
   border: solid 2px black;
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.2);
-color: white;
+
 -webkit-text-stroke:0.5px HSL(0°, 0%, 100%);
 }
 
@@ -213,7 +206,7 @@ color: white;
   border: solid 2px black;
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.2);
-color: white;
+
 -webkit-text-stroke:0.5px HSL(0°, 0%, 100%);
 }
 
