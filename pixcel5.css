@@ -107,25 +107,7 @@ m1 {
     animation: shake 2.5s linear infinite;
 }
 
-m2 {
-  display: inline-block;
-  position: relative;
-	z-index: 1;
-	opacity: 1;
-  top: 0%;
-  left: 0%;
-    font-family: ;
-    font-size: calc(0.4em+0.5vw );
-    font-weight: 0.5em;
-    color: var(--color);
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.15em rgba(255,255,255,0.7);
-    user-select: none;
-    white-space: nowrap;
-    filter: blur(0.007em);
-    animation: shake 2.5s linear infinite;
-}
+
 
 m1 span {
 display: inline-block;
