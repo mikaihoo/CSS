@@ -143,7 +143,7 @@ opacity: 1;
   opacity: 1;
 }
 
-.pixel-perfect-settings-btn {
+.pixel-perfect-settings-btn {61253
   z-index: 9999;
   display: inline-block;
   padding: px px;
@@ -242,7 +242,7 @@ cursor:  pointer;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
-  padding: 12px 27px;
+  padding: 1px 1px;
   cursor: move;
   background-size: auto auto;
 	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.3) 1px, rgba(22, 22, 22, 0.11) 2px);
