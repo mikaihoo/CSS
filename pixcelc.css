@@ -1,3 +1,4 @@
+
 x1 {
 position: absolute;
  --color: #00A97F;
@@ -26,33 +27,6 @@ x1 span {
   z-index: 1;
 	
 }
-m2 {
-  display: inline-block;
-  position: relative;
-	z-index: 1;
-	opacity: 1;
-  top: 0%;
-  left: 0%;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.4em + 1vw );
-    font-weight: 0.5em;
-    color: var(--color);
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.15em rgba(255,255,255,0.7);
-    user-select: none;
-    white-space: nowrap;
-    filter: blur(0.007em);
-    animation: shake 2.5s linear infinite;
-}
-
-
-
-m2 span {
-display: inline-block;
-position: absolute;
-
-}
 
 m1 {
   display: inline-block;
@@ -62,7 +36,7 @@ m1 {
   top: 0%;
   left: 0%;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(0.4em + 0.5vw);
+    font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
     color: #cd0cc8;
     letter-spacing: 0.02em;
@@ -163,10 +137,11 @@ opacity: 1;
   display: inline-block;
   padding: px px;
   border: solid 2px black;
+  border-radius: 3px;
   background: rgba(0, 0, 0, 0.2);
   color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-opacity: 1;
+  opacity: 1;
 }
 
 .pixel-perfect-settings-btn {
@@ -187,33 +162,33 @@ opacity: 1;
   padding: px px;
   border: solid 2px black;
   border-radius: 3px;
-  background: rgba(0, 0, 0, 0.2);
-  color: black;
+  color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-opacity: 1;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  opacity: 1;
+mix-blend-mode: overlay;
+background-size: cover;
 }
 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
-  padding: px px;
-  border: solid 2px black;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, 0.2);
-  color: black;
-  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-opacity: 1;
- 
-	
+  background-color: rgba(215, 44, 44, 0.7);
+  background: rgba(215, 44, 44, 0.7);
+
 }
 
 #pixel-perfect-container {
+	
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  font-family: Arial;
   font-size: 12px;
   z-index: 9001;
-	
-
+cursor:  pointer;
+  
 }
 #pixel-perfect-container .pixel-perfect-switch {
   position: fixed;
@@ -236,24 +211,22 @@ opacity: 1;
   cursor: move;
   color: black;
   border-radius: 5px;
-	
 }
 
 .pixel-perfect-hidden {
   display: none !important;
+	
 }
 
 #pixel-perfect-container .pixel-perfect-panel {
+  background-size: auto auto;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.2) 1px, rgba(22, 22, 22, 0.11) 2px);
   position: fixed;
   top: 5px;
   right: 5px;
   width: 150px;
   z-index: 9002;
-  box-shadow: inset 0 40px 20px hsl(296, 59%, 10%);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  border: 3px solid #333;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -264,31 +237,22 @@ opacity: 1;
 
 }
 #pixel-perfect-container .pixel-perfect-panel > div {
+	
   position: relative;
-	-webkit-text-stroke: 1px rgb(0, 255, 255);
-color: black;
+  color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
-  padding: 12px 5px;
+  padding: 12px 27px;
   cursor: move;
   background-size: auto auto;
-  background-color: rgba(215, 44, 44, 0.7);
-  border-radius: 4px;
-	color: transparent;
-	-webkit-text-stroke: 2px ;
-      animation: lines 2s ease-out infinite;
-      mix-blend-mode: color-burn;
-
+	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.3) 1px, rgba(22, 22, 22, 0.11) 2px);
+  background-color: rgba(24, 238, 219, 0.4);
+  
+	
 }
-
-
-
 #pixel-perfect-container .pixel-perfect-panel-footer a {
-  background-color: rgba(215, 44, 44, 0.5);
-	background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
-  text-decoration: none;
+  background-size: auto auto;
 
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
@@ -296,18 +260,14 @@ color: black;
   background: rgba(215, 44, 44, 0.5);
   text-decoration: none;
 }
-
-
 #pixel-perfect-container .pixel-perfect-panel-main {
-  background-size: auto auto;
-  background-color: rgba(255, 255, 255, 0);
-  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.2) 1px, rgba(22, 22, 22, 0.11) 2px);
+    background-size: auto auto;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.3) 1px, rgba(22, 22, 22, 0.11) 2px);
+  
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
   padding: 6px 0;
-		 color: white;
-  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-opacity: 1;
+
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
   position: absolute;
@@ -318,31 +278,26 @@ opacity: 1;
   cursor: pointer;
   outline: 0;
   color: red;
-  filter: drop-shadow(46px 36px 24px #f01616) drop-shadow(-55px -40px 25px #9e30a9);
   z-index: 1;
-  opacity:1;
+  opacity: 0.9;
+  
 }
 #pixel-perfect-container .pixel-perfect-panel-settings {
   outline: 0;
   border: 0;
   padding: 6px 0;
+  
 }
 #pixel-perfect-container .pixel-perfect-panel-settings fieldset {
   border: 0;
   margin: 0;
   padding: 2px 0;
-	 color: white;
-  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-opacity: 1;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings label {
   display: inline-block;
   margin: 0;
   padding: 0;
   width: 50px;
-	 color: white;
-  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-opacity: 1;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings input {
 	background-color: rgba(215, 44, 44, 0.2);
@@ -362,6 +317,7 @@ opacity: 1;
  color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
 opacity: 1;
+	
 }
 
 glitch {
@@ -370,7 +326,7 @@ glitch {
     display: inline-block;
     font-size: 4rem; /* adjust as needed */
     font-weight: 400; /* adjust as needed */
-    color: rgba(215, 44, 44, 0.5);
+    color: rgba(215, 44, 44, 0.8);
     text-shadow: 0px 0px 10px yellowgreen; /* creates a subtle outline effect */
 }
 
@@ -388,12 +344,12 @@ glitch {
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1 2s infinite linear alternate-reverse;
+    animation: glitch1 4s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2 2s infinite linear alternate-reverse;
+    animation: glitch2 5s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
