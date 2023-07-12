@@ -25,19 +25,16 @@ x1 span {
 }
 
 
-
-
-
 m1 {
   display: inline-block;
   position: relative;
-	z-index: 1;
-	opacity: 0.9;
+	z-index: ;
+	opacity: ;
   top: 0%;
   left: 0%;
     font-size: calc(0.4em + 0.8vw );
     font-weight: 0.5em;
-    color: var(--color);
+    color: ;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-shadow: 0 0 0.15em rgba(255,255,255,0.7);
