@@ -34,10 +34,8 @@ m1 {
   left: 0%;
     font-size: calc(0.4em + 0.8vw );
     font-weight: 0.5em;
-   	color: transparent;
-	-webkit-text-stroke: 1px #000;
-	 text-stroke: 1px red;
-    letter-spacing: 0.02em;
+	color: #4169e1;
+	-webkit-text-stroke: 1px #FFF;
     text-transform: uppercase;
     user-select: none;
     white-space: nowrap;
