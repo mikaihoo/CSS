@@ -208,8 +208,6 @@ background-size: cover;
 }
 
 #pixel-perfect-container .pixel-perfect-panel {
-   background-size: auto auto;
-  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0.1) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.6) 1px, rgba(22, 22, 22, 0.3) 2px);
   position: fixed;
   top: 5px;
   right: 5px;
