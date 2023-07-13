@@ -156,29 +156,19 @@ opacity: 1;
 }
 
 .pixel-perfect-overlay-image {
-  z-index: 1;
+  z-index: 0.5;
   display: inline-block;
   padding: px px;
-  border: solid 2px black;
-  border-radius: 3px;
-  color: white;
-  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Helvetica, Arial, sans-serif;
-  opacity: 1;
-mix-blend-mode: overlay;
-background-size: cover;
+
+ 
 }
 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
-  background-color: rgba(215, 44, 44, 0.7);
 
-
+	
 }
 
 #pixel-perfect-container {
-	
   position: absolute;
   top: 0;
   left: 0;
@@ -186,7 +176,7 @@ background-size: cover;
   font-family: Arial;
   font-size: 12px;
   z-index: 9001;
-cursor:  pointer;
+cursor: pointer;
   
 }
 #pixel-perfect-container .pixel-perfect-switch {
@@ -200,7 +190,8 @@ cursor:  pointer;
 
 }
 #pixel-perfect-container .pixel-perfect-overlay {
-	
+	mix-blend-mode: overlay;
+background-size: cover;
   position: absolute;
   display: block;
   top: 0;
@@ -208,8 +199,7 @@ cursor:  pointer;
   z-index: 9000;
   opacity: 0.8;
   cursor: move;
-  color: black;
-  border-radius: 5px;
+
 }
 
 .pixel-perfect-hidden {
@@ -219,7 +209,8 @@ cursor:  pointer;
 
 #pixel-perfect-container .pixel-perfect-panel {
   background-size: auto auto;
-  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.2) 1px, rgba(22, 22, 22, 0.11) 2px);
+	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0.1) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.6) 1px, rgba(22, 22, 22, 0.3) 2px);
+
   position: fixed;
   top: 5px;
   right: 5px;
@@ -245,8 +236,7 @@ cursor:  pointer;
   padding: 21px 1px;
   cursor: move;
   background-size: auto auto;
-	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.3) 1px, rgba(22, 22, 22, 0.11) 2px);
-  background-color: rgba(24, 238, 219, 0.4);
+
   
 	
 }
@@ -255,13 +245,12 @@ cursor:  pointer;
 
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
-  background-color: rgba(215, 44, 44, 0.5);
-  background: rgba(215, 44, 44, 0.5);
+  background-color: rgba(215, 44, 44, 0.7above);
   text-decoration: none;
 }
 #pixel-perfect-container .pixel-perfect-panel-main {
     background-size: auto auto;
-  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.3) 1px, rgba(22, 22, 22, 0.11) 2px);
+
   
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
@@ -310,7 +299,6 @@ cursor:  pointer;
   *vertical-align: middle;
   border-radius: 5px;
   outline: none;
-  padding: 0px 5px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
  color: white;
@@ -318,7 +306,6 @@ cursor:  pointer;
 opacity: 1;
 	
 }
-
 glitch {
 	
     position: relative;
