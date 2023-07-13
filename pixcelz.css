@@ -35,7 +35,7 @@ m1 {
     font-size: calc(0.4em + 0.8vw );
     font-weight: 0.5em;
    	color: transparent;
-	-webkit-text-stroke: 2px #000;
+	-webkit-text-stroke: 1px #000;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     user-select: none;
