@@ -238,7 +238,7 @@ background-size: cover;
     background-size: auto auto; 
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
-  padding: 0em;
+ padding: 6px 0;
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
   position: absolute;
