@@ -37,6 +37,7 @@ m1 {
     font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
     letter-spacing: 0.02em;
+     font-color: transparent;
     text-transform: uppercase;   
 　　  user-select: none;
     white-space: nowrap;
