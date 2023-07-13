@@ -37,8 +37,7 @@ m1 {
     font-size: calc(0.4em + 1vw);
     font-weight: 0.5em;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: rgba(0,0,0,0.5);
+    text-transform: uppercase;   
 　　  user-select: none;
     white-space: nowrap;
     filter: blur(0.007em);
