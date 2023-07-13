@@ -190,7 +190,7 @@ cursor: pointer;
 
 }
 #pixel-perfect-container .pixel-perfect-overlay {
-	mix-blend-mode: overlay;
+	mix-blend-mode: multiply;
 background-size: cover;
   position: absolute;
   display: block;
