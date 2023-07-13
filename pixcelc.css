@@ -190,7 +190,7 @@ cursor: pointer;
 
 }
 #pixel-perfect-container .pixel-perfect-overlay {
-mix-blend-mode: multiply;
+mix-blend-mode: overlay;
 background-size: cover;
   position: absolute;
   display: block;
@@ -224,21 +224,6 @@ background-size: cover;
   transform-style: preserve-3d;
   transform: rotateX(15deg) rotateY(-20deg);
 
-  position: fixed;
-  top: 5px;
-  right: 5px;
-  width: 150px;
-  z-index: 9002;
-  position: fixed;
-  border: 2px solid #333;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-　transition: transform 400ms;
-  transform-style: preserve-3d;
-  transform: rotateX(15deg) rotateY(-20deg);
-
 }
 #pixel-perfect-container .pixel-perfect-panel > div {
   position: relative;
@@ -246,7 +231,7 @@ background-size: cover;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
-　padding: 1em;
+　padding: 1.5em;
   cursor: move;
   background-size: auto auto;
 }
