@@ -241,9 +241,7 @@ background-size: cover;
   right: 5px;
   width: 150px;
   z-index: 9002;
-   transition: transform 400ms;
-  transform-style: preserve-3d;
-  transform: rotateX(15deg) rotateY(-20deg);
+
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
   padding: 1em;
@@ -280,7 +278,7 @@ background-size: cover;
   width: 50px;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings input {
-	background-color: rgba(215, 44, 44, 0.2);
+background-color: rgba(215, 44, 44, 0.2);
     border: 3px solid #333;
   display: inline-block;
   padding: 0;
