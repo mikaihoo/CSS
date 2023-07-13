@@ -159,7 +159,6 @@ opacity: 1;
   display: inline-block;
   padding: px px;
 
- 
 }
 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
@@ -207,9 +206,6 @@ background-size: cover;
 }
 
 #pixel-perfect-container .pixel-perfect-panel {
-  background-size: auto auto;
-	  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0.1) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.6) 1px, rgba(22, 22, 22, 0.3) 2px);
-
   position: fixed;
   top: 5px;
   right: 5px;
@@ -220,13 +216,12 @@ background-size: cover;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-	  transition: transform 400ms;
+　transition: transform 400ms;
   transform-style: preserve-3d;
   transform: rotateX(15deg) rotateY(-20deg);
 
 }
 #pixel-perfect-container .pixel-perfect-panel > div {
-	
   position: relative;
   color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
@@ -234,10 +229,7 @@ background-size: cover;
 #pixel-perfect-container .pixel-perfect-panel-footer {
   padding: 1em;
   cursor: move;
-  background-size: auto auto;
-
-  
-	
+  background-size: auto auto;	
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a {
   background-size: auto auto;
@@ -253,7 +245,7 @@ background-size: cover;
   
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
-  padding: 6px 0;
+  padding: 1em;
 
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
