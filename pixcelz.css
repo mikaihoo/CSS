@@ -30,12 +30,12 @@ m1 {
   position: relative;
 	z-index: ;
 	opacity: ;
-  top: 10%;
-  left: 10%;
+  top: 0%;
+  left: 0%;
     font-size: calc(0.4em + 0.8vw );
     font-weight: 0.5em;
 	color: black;
-	-webkit-text-stroke: 1px #FFF;
+	-webkit-text-stroke: 0.5px #FFF;
     text-transform: uppercase;
     user-select: none;
     white-space: nowrap;
