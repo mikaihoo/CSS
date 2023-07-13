@@ -188,7 +188,7 @@ cursor: pointer;
 
 }
 #pixel-perfect-container .pixel-perfect-overlay {
-	mix-blend-mode: overlay;
+mix-blend-mode: overlay;
 background-size: cover;
   position: absolute;
   display: block;
@@ -235,13 +235,10 @@ background-size: cover;
   text-decoration: none;
 }
 #pixel-perfect-container .pixel-perfect-panel-main {
-    background-size: auto auto;
-
-  
+    background-size: auto auto; 
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
-  padding: 1em;
-
+  padding: 0em;
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
   position: absolute;
