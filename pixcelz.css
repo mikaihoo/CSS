@@ -30,11 +30,11 @@ m1 {
   position: relative;
 	z-index: ;
 	opacity: ;
-  top: 0%;
-  left: 0%;
+  top: 10%;
+  left: 10%;
     font-size: calc(0.4em + 0.8vw );
     font-weight: 0.5em;
-	color: #4169e1;
+	color: black;
 	-webkit-text-stroke: 1px #FFF;
     text-transform: uppercase;
     user-select: none;
