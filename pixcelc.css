@@ -38,8 +38,7 @@ m1 {
     font-weight: 0.5em;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-　　  background: rgba(var(--color-primary-rgb), 0.9);
-  color: var(--color-primary-contrast);
+    background: rgba(0,0,0,0.5);
 　　  user-select: none;
     white-space: nowrap;
     filter: blur(0.007em);
