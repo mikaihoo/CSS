@@ -312,7 +312,7 @@ glitch {
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1 5s infinite linear alternate-reverse;
+    animation: glitch1 45s infinite linear alternate-reverse;
 }
 
 .glitch::after {
