@@ -28,7 +28,7 @@ m1 {
   display: inline-block;
   position: relative;
 	z-index: ;
-	opacity: ;
+	opacity:0.8 ;
   top: 0%;
   left: 0%;
  font-size: calc(0.4em + 0.8vw );
