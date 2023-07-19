@@ -10,10 +10,7 @@ position: absolute;
  text-transform: uppercase;
  color: var(--color);
  z-index: 1;
- animation: blinkShadowsFilter 8s ease-in infinite;
-  -webkit-border-radius: 11px;
 opacity: 0.7;
-
 }
 x1 span {
   display: inline-block;
@@ -22,28 +19,30 @@ x1 span {
   box-sizing: content-box;
   padding: 5px 10px;
   outline: none;
-  filter: drop-shadow(4px 3px 2px #4090b5) drop-shadow(-5px -4px 5px  var(--color));
-  z-index: 1;
+  filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
 	
 }
+
 
 m1 {
   display: inline-block;
   position: relative;
-	z-index: 1;
-	opacity: 0.9;
+	z-index: ;
+	opacity: ;
   top: 0%;
   left: 0%;
-    font-size: calc(1rem);
-    font-weight: 1em;
-    letter-spacing: 0.02em;
-     font-color: transparent;
-    text-transform: uppercase;   
-　　  user-select: none;
+ font-size: calc(0.4em + 0.8vw );
+ font-weight: 0.5em;
+　font-color: transparent;
+ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+    text-transform: uppercase;
+    user-select: none;
     white-space: nowrap;
     filter: blur(0.007em);
     animation: shake 2.5s linear infinite;
 }
+
+
 
 m1 span {
 display: inline-block;
@@ -123,7 +122,7 @@ m1::after {
 z-index: 9992;
 background-size: auto  auto;
 background-color: rgba(255, 255, 255, 0);
-background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.14) 6px, rgba(202, 215, 87, 0.14) 7px );
+background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.14) 6px, rgba(202, 215, 87, 0.14) 7px);
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
 opacity: 1;
@@ -158,6 +157,7 @@ opacity: 1;
   display: inline-block;
   padding: px px;
 
+ 
 }
 
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
@@ -173,8 +173,7 @@ opacity: 1;
   font-family: Arial;
   font-size: 12px;
   z-index: 9001;
-cursor: pointer;
-  
+
 }
 #pixel-perfect-container .pixel-perfect-switch {
   position: fixed;
@@ -187,8 +186,8 @@ cursor: pointer;
 
 }
 #pixel-perfect-container .pixel-perfect-overlay {
-mix-blend-mode: overlay;
-background-size: cover;
+	mix-blend-mode: overlay;
+	background-size: cover;
   position: absolute;
   display: block;
   top: 0;
@@ -201,7 +200,6 @@ background-size: cover;
 
 .pixel-perfect-hidden {
   display: none !important;
-	
 }
 
 #pixel-perfect-container .pixel-perfect-panel {
@@ -210,33 +208,56 @@ background-size: cover;
   right: 5px;
   width: 150px;
   z-index: 9002;
-　transition: transform 400ms;
+  position: fixed;
+
+	  transition: transform 400ms;
   transform-style: preserve-3d;
   transform: rotateX(15deg) rotateY(-20deg);
+
+
 }
 #pixel-perfect-container .pixel-perfect-panel > div {
   position: relative;
   color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+	
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
-  padding: 1em;
+  padding: 12px 5px;
   cursor: move;
-  background-size: auto auto;	
+  background-size: auto auto;
+  
+
+
 }
+
+
+
 #pixel-perfect-container .pixel-perfect-panel-footer a {
   background-size: auto auto;
 
+	color: transparent;
+  text-decoration: none;
+
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
-  background-color: rgba(215, 44, 44, 0.7above);
-  text-decoration: none;
+  background-size: auto auto;
+
+
 }
+
+
 #pixel-perfect-container .pixel-perfect-panel-main {
-    background-size: auto auto; 
+  background-size: auto auto;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.2) 1px, rgba(22, 22, 22, 0.11) 2px);
+	  box-shadow: inset 0 40px 20px hsl(296, 10%, 35%);
+
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
- padding: 6px 0;
+  padding: 6px 0;
+	  background-size: auto auto;
+
 }
 #pixel-perfect-container .pixel-perfect-panel-close {
   position: absolute;
@@ -247,15 +268,15 @@ background-size: cover;
   cursor: pointer;
   outline: 0;
   color: red;
+  filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
   z-index: 1;
   opacity: 0.9;
-  filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
 }
 #pixel-perfect-container .pixel-perfect-panel-settings {
-  outline: 0;
-  border: 0;
-  padding: 6px 0;
-  
+  padding: 0px 0;
+	  background-size: auto auto;
+
+
 }
 #pixel-perfect-container .pixel-perfect-panel-settings fieldset {
   border: 0;
@@ -280,12 +301,12 @@ background-size: cover;
   *vertical-align: middle;
   border-radius: 5px;
   outline: none;
+  padding: 0px 5px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
  color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
 opacity: 1;
-	
 }
 
 glitch {
@@ -302,11 +323,11 @@ glitch {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 1
+	z-index: +1
 }
 .glitch::before {
 	text-shadow: -5px 0 #ff0;
-	animation: 4s linear infinite alternate-reverse glitch1
+	animation: 8s linear infinite alternate-reverse glitch1
 }
 .glitch::after {
 	text-shadow: 5px 0 green;
