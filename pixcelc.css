@@ -353,6 +353,7 @@ glitch {
     }
     100% {
         clip: rect(33px, 9999px, 54px, 0);
+    }
     110% {
         clip: rect(33px, 9999px, 54px, 0);
     }
