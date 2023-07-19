@@ -317,7 +317,7 @@ glitch {
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2 35s infinite linear alternate-reverse;
+    animation: glitch2 12s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
