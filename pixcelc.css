@@ -292,8 +292,8 @@ glitch {
 	
     position: relative;
     display: inline-block;
-    font-size: 2rem; /* adjust as needed */
-    font-weight: 200; /* adjust as needed */
+    font-size: 4rem; /* adjust as needed */
+    font-weight: 400; /* adjust as needed */
     color: rgba(215, 44, 44, 0.8);
     text-shadow: 0px 0px 10px yellowgreen; /* creates a subtle outline effect */
 }
@@ -307,17 +307,17 @@ glitch {
     width: 100%;
     height: 100%;
     text-shadow: none;
-    z-index: ＋1;
+    z-index: 1;
 }
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1 8s infinite linear alternate-reverse;
+    animation: glitch1 4s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2 12s infinite linear alternate-reverse;
+    animation: glitch2 5s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
@@ -354,12 +354,6 @@ glitch {
     100% {
         clip: rect(33px, 9999px, 54px, 0);
     }
-    110% {
-        clip: rect(33px, 9999px, 54px, 0);
-    }
-    120% {
-        clip: rect(33px, 9999px, 54px, 0);
-    }
 }
 
 @keyframes glitch2 {
@@ -394,12 +388,6 @@ glitch {
         clip: rect(30px, 9999px, 61px, 0);
     }
     100% {
-        clip: rect(90px, 9999px, 29px, 0);
-    }
-    110% {
-        clip: rect(90px, 9999px, 29px, 0);
-    }
-    120% {
         clip: rect(90px, 9999px, 29px, 0);
     }
 }
