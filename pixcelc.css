@@ -312,12 +312,12 @@ glitch {
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1  10s ease 5s  infinite linear alternate-reverse;
+    animation: glitch1  10s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2  10s ease 5s  infinite linear alternate-reverse;
+    animation: glitch2  10s ease 0.5s  infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
