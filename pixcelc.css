@@ -35,7 +35,7 @@ m1 {
   top: 0%;
   left: 0%;
     font-size: calc(1rem);
-    font-weight: 0.5em;
+    font-weight: 1em;
     letter-spacing: 0.02em;
      font-color: transparent;
     text-transform: uppercase;   
@@ -312,12 +312,12 @@ glitch {
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1 4s infinite linear alternate-reverse;
+    animation: glitch1 8s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2 6s infinite linear alternate-reverse;
+    animation: glitch2 12s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
