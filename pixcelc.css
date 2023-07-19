@@ -222,7 +222,7 @@ opacity: 1;
 	
 }
 #pixel-perfect-container .pixel-perfect-panel-footer {
-  padding: px px;
+  padding: 0;
   cursor: move;
   background-size: auto auto;
   
@@ -307,7 +307,7 @@ opacity: 1;
 
 glitch {
 	display: inline-block;
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: 400;
 	color: rgba(215, 44, 44, .5);
 	text-shadow: 0 0 10px #9acd32
