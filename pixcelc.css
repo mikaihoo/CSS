@@ -307,7 +307,7 @@ opacity: 1;
 
 glitch {
 	display: inline-block;
-	font-size: 4rem;
+	font-size: 5rem;
 	font-weight: 400;
 	color: rgba(215, 44, 44, .5);
 	text-shadow: 0 0 10px #9acd32
@@ -323,11 +323,11 @@ glitch {
 }
 .glitch::before {
 	text-shadow: -5px 0 #ff0;
-	animation: 8s linear infinite alternate-reverse glitch1
+	animation: 2s linear infinite alternate-reverse glitch1
 }
 .glitch::after {
 	text-shadow: 5px 0 green;
-	animation: 8s linear infinite alternate-reverse glitch2
+	animation: 2s linear infinite alternate-reverse glitch2
 }
 @keyframes glitch1 {
 	0% {
