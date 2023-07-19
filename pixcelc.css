@@ -317,7 +317,7 @@ glitch {
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2 8s infinite linear alternate-reverse;
+    animation: glitch2 6s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
@@ -352,6 +352,11 @@ glitch {
         clip: rect(53px, 9999px, 54px, 0);
     }
     100% {
+        clip: rect(33px, 9999px, 54px, 0);
+    110% {
+        clip: rect(33px, 9999px, 54px, 0);
+    }
+    120% {
         clip: rect(33px, 9999px, 54px, 0);
     }
 }
@@ -388,6 +393,12 @@ glitch {
         clip: rect(30px, 9999px, 61px, 0);
     }
     100% {
+        clip: rect(90px, 9999px, 29px, 0);
+    }
+    110% {
+        clip: rect(90px, 9999px, 29px, 0);
+    }
+    120% {
         clip: rect(90px, 9999px, 29px, 0);
     }
 }
