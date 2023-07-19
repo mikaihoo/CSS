@@ -292,7 +292,7 @@ glitch {
 	
     position: relative;
     display: block;
-    font-size: 2rem; /* adjust as needed */
+    font-size: 4rem; /* adjust as needed */
     font-weight: 200; /* adjust as needed */
     color: rgba(215, 44, 44, 0.8);
     text-shadow: 0px 0px 10px yellowgreen; /* creates a subtle outline effect */
@@ -312,12 +312,12 @@ glitch {
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1  10s infinite linear alternate-reverse;
+    animation: glitch1 5s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2  10s ease 0.5s  infinite linear alternate-reverse;
+    animation: glitch2 10s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
