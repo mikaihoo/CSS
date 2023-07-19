@@ -306,11 +306,11 @@ glitch {
 }
 .glitch::before {
 	text-shadow: -5px 0 #ff0;
-	animation: 2s linear infinite alternate-reverse glitch1
+	animation: 4s linear infinite alternate-reverse glitch1
 }
 .glitch::after {
 	text-shadow: 5px 0 green;
-	animation: 2s linear infinite alternate-reverse glitch2
+	animation: 8s linear infinite alternate-reverse glitch2
 }
 @keyframes glitch1 {
 	0% {
