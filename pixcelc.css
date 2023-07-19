@@ -307,7 +307,7 @@ glitch {
     width: 100%;
     height: 100%;
     text-shadow: none;
-    z-index: -1;
+    z-index: ＋1;
 }
 
 .glitch::before {
