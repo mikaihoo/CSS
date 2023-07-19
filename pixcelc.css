@@ -290,7 +290,7 @@ opacity: 1;
 
 glitch {
 	
-    position: absolute;
+    position: relative;
     display: block;
     font-size: 0.5rem; /* adjust as needed */
     font-weight: 200; /* adjust as needed */
@@ -312,12 +312,12 @@ glitch {
 
 .glitch::before {
     text-shadow: -5px 0 yellow;
-    animation: glitch1 14s infinite linear alternate-reverse;
+    animation: glitch1 5s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     text-shadow: 5px 0 green;
-    animation: glitch2 15s infinite linear alternate-reverse;
+    animation: glitch2 35s infinite linear alternate-reverse;
 }
 
 @keyframes glitch1 {
