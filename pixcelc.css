@@ -327,7 +327,7 @@ glitch {
 }
 .glitch::after {
 	text-shadow: 5px 0 green;
-	animation: 5s linear infinite alternate-reverse glitch2
+	animation: 2s linear infinite alternate-reverse glitch2
 }
 @keyframes glitch1 {
 	0% {
