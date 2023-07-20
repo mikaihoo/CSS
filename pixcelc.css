@@ -122,7 +122,7 @@ m1::after {
 z-index: 9992;
 background-size: auto  auto;
 background-color: rgba(255, 255, 255, 0);
-background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.14) 6px, rgba(202, 215, 87, 0.14) 7px);
+background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
  animation: blinkShadowsFilter 8s ease-in infinite;
   -webkit-border-radius: 11px;
 opacity: 1;
@@ -307,7 +307,7 @@ opacity: 1;
 
 glitch {
 	display: inline-block;
-	font-size: 4rem;
+	font-size: calc(0.4em + 0.8vw );
 	font-weight: 400;
 	color: rgba(215, 44, 44, .5);
 	text-shadow: 0 0 10px #9acd32
@@ -323,19 +323,15 @@ glitch {
 }
 .glitch::before {
 	text-shadow: -5px 0 #ff0;
-	animation: 2s linear infinite alternate-reverse glitch1
+	animation: 2.5s linear infinite alternate-reverse glitch1
 }
 .glitch::after {
 	text-shadow: 5px 0 green;
-	animation: 2s linear infinite alternate-reverse glitch2
+	animation: 2.5s linear infinite alternate-reverse glitch2
 }
 @keyframes glitch1 {
-	0% {
-		clip: rect(39px, 9999px, 3px, 0)
-	}
-	10% {
-		clip: rect(96px, 9999px, 14px, 0)
-	}
+
+
 	20% {
 		clip: rect(5px, 9999px, 69px, 0)
 	}
@@ -367,9 +363,7 @@ glitch {
 	10% {
 		clip: rect(96px, 9999px, 85px, 0)
 	}
-	20% {
-		clip: rect(71px, 9999px, 28px, 0)
-	}
+
 	30% {
 		clip: rect(5px, 9999px, 96px, 0)
 	}
@@ -389,7 +383,5 @@ glitch {
 	90% {
 		clip: rect(30px, 9999px, 61px, 0)
 	}
-	100% {
-		clip: rect(90px, 9999px, 29px, 0)
-	}
+
 }
