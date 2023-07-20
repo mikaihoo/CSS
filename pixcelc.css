@@ -330,8 +330,12 @@ glitch {
 	animation: 2.5s linear infinite alternate-reverse glitch2
 }
 @keyframes glitch1 {
-
-
+	0% {
+		clip: rect(39px, 9999px, 3px, 0)
+	}
+	10% {
+		clip: rect(96px, 9999px, 14px, 0)
+	}
 	20% {
 		clip: rect(5px, 9999px, 69px, 0)
 	}
@@ -363,7 +367,9 @@ glitch {
 	10% {
 		clip: rect(96px, 9999px, 85px, 0)
 	}
-
+	20% {
+		clip: rect(71px, 9999px, 48px, 0)
+	}
 	30% {
 		clip: rect(5px, 9999px, 96px, 0)
 	}
@@ -383,5 +389,9 @@ glitch {
 	90% {
 		clip: rect(30px, 9999px, 61px, 0)
 	}
+	100% {
+		clip: rect(90px, 9999px, 79px, 0)
+	}
+}
 
 }
