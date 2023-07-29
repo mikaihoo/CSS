@@ -162,8 +162,9 @@ opacity: 1;
 }
 
 #pixel-perfect-container {
-  position: static;
-
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   font-family: ;
   font-size: 12px;
@@ -198,8 +199,9 @@ opacity: 1;
 }
 
 #pixel-perfect-container .pixel-perfect-panel {
-  position: static;
-
+  position: fixed;
+    top: 5px;
+  right: 5px;
   width: 150px;
   z-index: 9002;
   position: fixed;
