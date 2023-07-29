@@ -198,9 +198,8 @@ opacity: 1;
 }
 
 #pixel-perfect-container .pixel-perfect-panel {
-  position: fixed;
-  top: 5px;
-  right: 5px;
+  position: static;
+
   width: 150px;
   z-index: 9002;
   position: fixed;
