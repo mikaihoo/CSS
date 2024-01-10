@@ -166,7 +166,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 }
 
 #pixel-perfect-container {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -175,7 +175,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   z-index: 9001;
 }
 #pixel-perfect-container .pixel-perfect-switch {
-  position: fixed;
+  position: relative;
   z-index: 9999;
   right: 30px;
   top: 30px;
