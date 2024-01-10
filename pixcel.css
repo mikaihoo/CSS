@@ -166,7 +166,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
 }
 
 #pixel-perfect-container {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -184,7 +184,7 @@ background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, 
   cursor: pointer;
 }
 #pixel-perfect-container .pixel-perfect-overlay {
-  position: absolute;
+  position: relative;
   display: block;
   top: 0;
   left: 0;
