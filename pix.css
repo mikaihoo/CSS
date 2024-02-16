@@ -1,3 +1,12 @@
+#pixel-perfect:has{
+      position: fixed;
+      z-index: calc(Infinity);
+}
+.pixel-perfect:has{
+      position: fixed;
+      z-index: calc(Infinity);
+}
+
 x1 {
     position: absolute;
      --color: #00A97F;
@@ -9,7 +18,7 @@ x1 {
      font-family: inherit;
      text-transform: uppercase;
      color: var(--color);
-     z-index: ;
+ 
     opacity: 0.7;
     }
     x1 span {
@@ -27,7 +36,7 @@ x1 {
     m1 {
       display: inline-block;
       position: relative;
-        z-index: ;
+
         opacity:0.8 ;
       top: 0%;
       left: 0%;
@@ -119,7 +128,7 @@ x1 {
     }
     
     .button {
-    z-index: ;
+
     background-size: auto  auto;
     background-color: rgba(255, 255, 255, 0);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
@@ -129,7 +138,7 @@ x1 {
     }
     
     .pixel-perfect-overlay-btn {
-      z-index: ;
+
       display: inline-block;
       padding: px px;
       border: solid 2px black;
@@ -141,7 +150,7 @@ x1 {
     }
     
     .pixel-perfect-settings-btn {
-      z-index: ;
+
       display: inline-block;
       padding: px px;
       border: solid 2px black;
@@ -153,7 +162,7 @@ x1 {
     }
     
     .pixel-perfect-overlay-image {
-        z-index: calc(infinity);
+
       display: inline-block;
       padding: px px;
     
@@ -172,12 +181,11 @@ x1 {
       width: 100%;
       font-family: Arial;
       font-size: 12px;
-      z-index: calc(infinity);
+
     
     }
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
-      z-index: ;
       right: 30px;
       top: 30px;
       font-size: 20px;
@@ -192,7 +200,6 @@ x1 {
       display: block;
       top: 0;
       left: 0;
-      z-index: calc(infinity);
       opacity: 0.8;
       cursor: move;
     
@@ -207,7 +214,6 @@ x1 {
       top: 5px;
       right: 5px;
       width: 150px;
-      z-index: calc(infinity);
       position: fixed;
     　transition: transform 400ms;
       transform-style: preserve-3d;
@@ -265,7 +271,6 @@ x1 {
       outline: 0;
       color: red;
       filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
-      z-index: calc(infinity);
       opacity: 0.9;
     }
     #pixel-perfect-container .pixel-perfect-panel-settings {
@@ -395,4 +400,3 @@ x1 {
     }
     
     }
-    
