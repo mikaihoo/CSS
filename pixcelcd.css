@@ -178,8 +178,7 @@ opacity: 1;
 #pixel-perfect-container .pixel-perfect-switch {
   position: fixed;
   z-index: 100000;
-  right: 0px;
-  left: 30px;
+  right: 30px;
   top: 30px;
   font-size: 20px;
   font-weight: bold;
@@ -207,6 +206,7 @@ opacity: 1;
   position: fixed;
   top: 5px;
   right: 5px;
+  left: 5px;
   width: 150px;
   z-index: 100002;
   position: fixed;
