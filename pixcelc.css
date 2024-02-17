@@ -179,6 +179,7 @@ opacity: 1;
   position: fixed;
   z-index: 100000;
   right: 30px;
+  left: 0px;
   top: 30px;
   font-size: 20px;
   font-weight: bold;
