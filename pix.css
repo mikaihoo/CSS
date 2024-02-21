@@ -162,7 +162,7 @@ x1 {
     }
     
     .pixel-perfect-overlay-image {
-
+      z-index: calc(Infinity);
       display: inline-block;
       padding: px px;
     
@@ -218,7 +218,7 @@ x1 {
     　transition: transform 400ms;
       transform-style: preserve-3d;
       transform: rotateX(15deg) rotateY(-20deg);
-    
+     z-index: calc(Infinity);
     
     }
     #pixel-perfect-container .pixel-perfect-panel > div {
