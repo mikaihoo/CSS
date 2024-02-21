@@ -321,10 +321,11 @@ x1 {
         font-size: calc(0.4em + 0.4vw );
         font-weight: 400;
         color: rgba(215, 44, 44, .5);
-        text-shadow: 0 0 10px #9acd32
-	 white-space: [pre-wrap];
+        text-shadow: 0 0 10px #9acd32;
+	
     }
     .glitch::after, .glitch::before {
+	white-space: pre-wrap;
         content: attr(data-text);
         position: absolute;
         top: 0;
@@ -335,11 +336,11 @@ x1 {
     }
     .glitch::before {
         text-shadow: -5px 0 #ff0;
-        animation: 2.5s linear infinite alternate-reverse glitch1
+        animation: 2.5s linear infinite alternate-reverse glitch1;
     }
     .glitch::after {
         text-shadow: 5px 0 green;
-        animation: 2.5s linear infinite alternate-reverse glitch2
+        animation: 2.5s linear infinite alternate-reverse glitch2;
     }
     @keyframes glitch1 {
         0% {
