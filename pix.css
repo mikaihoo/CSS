@@ -1,10 +1,10 @@
 #pixel-perfect:has{
       position: fixed;
-      z-index: calc(Infinity);
+      z-index: calc(1 / 0);
 }
 .pixel-perfect:has{
       position: fixed;
-      z-index: calc(Infinity);
+      z-index: calc(1 / 0);
 }
 
 x1 {
@@ -162,7 +162,7 @@ x1 {
     }
     
     .pixel-perfect-overlay-image {
-      z-index: calc(Infinity);
+      z-index: calc(1 / 0);
       display: inline-block;
       padding: px px;
     
@@ -175,6 +175,7 @@ x1 {
     }
     
     #pixel-perfect-container {
+      z-index: calc(1 / 0);
       position: absolute;
       top: 0;
       left: 0;
@@ -194,8 +195,9 @@ x1 {
     
     }
     #pixel-perfect-container .pixel-perfect-overlay {
-        mix-blend-mode: overlay;
-        background-size: cover;
+      z-index: calc(1 / 0);
+      mix-blend-mode: overlay;
+      background-size: cover;
       position: absolute;
       display: block;
       top: 0;
