@@ -213,7 +213,7 @@ x1 {
     
     #pixel-perfect-container .pixel-perfect-panel {
       position: absolute;
-			z-index: calc(1 / 0);
+      z-index: calc(1 / 0);
       top: 5px;
       right: 5px;
       width: 150px;
@@ -280,10 +280,9 @@ x1 {
       opacity: 0.9;
     }
     #pixel-perfect-container .pixel-perfect-panel-settings {
-      padding: 0px 0;
+	  z-index: calc(1 / 0);
+          padding: 0px 0;
           background-size: auto auto;
-    
-    
     }
     #pixel-perfect-container .pixel-perfect-panel-settings fieldset {
       border: 0;
