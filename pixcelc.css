@@ -322,6 +322,7 @@ x1 {
         font-weight: 400;
         color: rgba(215, 44, 44, .5);
         text-shadow: 0 0 10px #9acd32
+	 white-space: [pre-wrap];
     }
     .glitch::after, .glitch::before {
         content: attr(data-text);
