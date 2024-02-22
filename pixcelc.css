@@ -176,7 +176,6 @@ x1 {
     
     #pixel-perfect-container {
       z-index: calc(1 / 0);
-      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
@@ -195,10 +194,10 @@ x1 {
     
     }
     #pixel-perfect-container .pixel-perfect-overlay {
+      position: absolute;
       z-index: calc(1 / 0);
       mix-blend-mode: overlay;
       background-size: cover;
-      position: absolute;
       display: block;
       top: 0;
       left: 0;
@@ -222,8 +221,7 @@ x1 {
   background-color: rgba(255, 255, 255, 0);
   background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(1, 237, 255, 0.23) 1px, rgba(1, 237, 255, 0.23) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(24, 238, 219, 0) 1px, rgba(24, 238, 219, 0) 2px), repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 22, 22, 0.11) 1px, rgba(22, 22, 22, 0.11) 2px);
   border-radius: 5px;
-	transform: rotateX(15deg) rotateY(-20deg) rotateZ(0deg);
-
+transform: rotateX(15deg) rotateY(-20deg) rotateZ(0deg);
   box-shadow: rgba(5, 71, 17, 0.2) -5px 20px 10px 0px;
 	
     }
