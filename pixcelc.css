@@ -186,7 +186,7 @@ x1 {
     
     }
     #pixel-perfect-container .pixel-perfect-switch {
-      position: relative;
+      position: fixed;
       right: 30px;
       top: 30px;
       font-size: 20px;
@@ -198,7 +198,7 @@ x1 {
       z-index: calc(1 / 0);
       mix-blend-mode: overlay;
       background-size: cover;
-      position: relative;
+      position: absolute;
       display: block;
       top: 0;
       left: 0;
