@@ -172,8 +172,7 @@ x1 {
      
     }
 		.pixel-perfect-overlay-ex {
-
-transform: rotate3d(10, 10, 0, 10deg);
+  transform: translate3d(0px, 0px, 0px);
 
     }
     
