@@ -298,7 +298,6 @@ transform-style: preserve-3d;
     #pixel-perfect-container .pixel-perfect-panel-settings {
 	  z-index: calc(1 / 0);
           padding: 0px 0;
-					
           background-size: auto auto;
     }
     #pixel-perfect-container .pixel-perfect-panel-settings fieldset {
@@ -313,7 +312,6 @@ transform-style: preserve-3d;
       width: 50px;
     }
     #pixel-perfect-container .pixel-perfect-panel-settings input {
-       z-index: calc(1 / 0);
         background-color: rgba(215, 44, 44, 0.2);
         border: 3px solid #333;
       display: inline-block;
@@ -423,5 +421,3 @@ transform-style: preserve-3d;
             clip: rect(90px, 9999px, 79px, 0)
         }
     }
-    
-    
