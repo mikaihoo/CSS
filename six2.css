@@ -170,8 +170,8 @@ x1 {
      
     }
 		.pixel-perfect-overlay-ex {
-			      position: relative;
-      z-index: calc(1 / 0);
+  position: relative;
+  z-index: 2147483648;
   transform: translate3d(0px, 0px, 0px);
 
     }
