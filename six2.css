@@ -172,9 +172,8 @@ x1 {
      
     }
 		.pixel-perfect-overlay-ex {
-   display: flex;
-  width: 40%;
-  justify-content: flex-end;
+
+transform: rotate3d(10, 10, 0, 10deg);
 
     }
     
