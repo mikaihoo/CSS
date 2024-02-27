@@ -10,7 +10,8 @@
 }
 
 x1 {
-	
+	 position: relative;
+	 z-index: -1;
 	 transform-style: preserve-3d;
     position: absolute;
      --color: #00A97F;
@@ -38,8 +39,7 @@ x1 {
     
     m1 {
       display: inline-block;
-      position: relative;
-
+ position: relative;
       opacity:0.8 ;
       top: 0%;
       left: 0%;
@@ -131,6 +131,7 @@ x1 {
     }
     
     .button {
+    	 transform: rotate3d(1, 1, 0, 30deg);
     background-size: auto  auto;
     background-color: rgba(255, 255, 255, 0);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
@@ -172,13 +173,12 @@ x1 {
     }
     
     .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
-    z-index: calc(1 / 0);
-		
+	
 
     }
     
     #pixel-perfect-container {
-      z-index: calc(1 / 0);
+    
       top: 0;
       left: 0;
       width: 100%;
@@ -215,7 +215,7 @@ x1 {
     
 #pixel-perfect-container .pixel-perfect-panel {
       position: fixed;
-      z-index: calc(1 / 0);
+ 
       top: 5px;
       right: 5px;
       width: 150px;
@@ -297,20 +297,22 @@ transform-style: preserve-3d;
 		
     }
     #pixel-perfect-container .pixel-perfect-panel-settings {
-	  z-index: calc(1 / 0);
           padding: 0px 0;
           background-size: auto auto;
+					
     }
     #pixel-perfect-container .pixel-perfect-panel-settings fieldset {
       border: 0;
       margin: 0;
       padding: 2px 0;
+			
     }
     #pixel-perfect-container .pixel-perfect-panel-settings label {
       display: inline-block;
       margin: 0;
       padding: 0;
       width: 50px;
+			
     }
     #pixel-perfect-container .pixel-perfect-panel-settings input {
         background-color: rgba(215, 44, 44, 0.2);
@@ -333,13 +335,16 @@ transform-style: preserve-3d;
     }
     
     glitch {
+    	
+    	position:relative;
+        z-index: calc(1 + infinity); 	
         display: block;
-				 z-index: calc(1 / 0)-1;
         font-size: calc(0.4em + 0.4vw );
         font-weight: 400;
         color: rgba(215, 44, 44, .5);
         text-shadow: 0 0 10px #9acd32;
-	
+	  position: relative;
+
     }
     .glitch::after, .glitch::before {
 	white-space: pre-wrap;
