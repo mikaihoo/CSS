@@ -242,8 +242,8 @@ background: linear-gradient(0deg, rgba(151,134,137,5.7175070711878502) 55%, rgba
 
 border-radius: 10px;
 	transform: translate3d(0px, 0px, 25px);
- 	border-bottom: 2px solid ;	
-	border-right: 2px solid ;	
+ 	border-bottom: 2px solid white;	
+	border-right: 2px solid white;	
 
     }
 		
