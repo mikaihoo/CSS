@@ -172,6 +172,7 @@ x1 {
     
     .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
     z-index: calc(1 / 0);
+		
 
     }
     
@@ -182,6 +183,7 @@ x1 {
       width: 100%;
       font-family: Arial;
       font-size: 12px;
+ 
 
     }
     #pixel-perfect-container .pixel-perfect-switch {
@@ -220,7 +222,7 @@ x1 {
 transform-style: preserve-3d;
 background-size: auto auto;
 
-background-color: rgba(0, 0, 0, 0.3);
+background-color: rgba(151,134,137,5.7175070711878502) 55%;
 background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(151, 134,137, 1) 1px, rgba(151, 134, 137, 1) 2px);
 
 	border-bottom: 1px solid white;	
@@ -233,17 +235,18 @@ border-radius: 15px;
   box-shadow: rgba(5, 71, 17, 0.2) -5px 20px 10px 0px;
     }
 		
-    #pixel-perfect-container .pixel-perfect-panel > div {
+   #pixel-perfect-container .pixel-perfect-panel > div {
       position: relative;
       color: white;
       text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;	
-			
-background: linear-gradient(0deg, rgba(151,134,137,5.7175070711878502) 55%, rgba(36,0,25,0.767927239255077) 56%, rgba(224,19,58,0.7175070711878502) 57%, rgba(122,100,115,0.34215693113182777) 57%, rgba(36,0,25,1) 57%, rgba(105,80,97,0.5662465669861695) 58%); 
+
+background: linear-gradient(0deg, rgba(122,100,115,0.34215693113182777) 57%, rgba(36,0,25,1) 57%, rgba(105,80,97,0.5662465669861695) 58%); 
+
 
 border-radius: 10px;
 	transform: translate3d(0px, 0px, 25px);
- 	border-bottom: 2px solid white;	
-	border-right: 2px solid white;	
+ 	border-bottom: 2px solid ;	
+	border-right: 2px solid ;	
 
     }
 		
@@ -254,7 +257,6 @@ border-radius: 10px;
 transform-style: preserve-3d;
 
     }
-    
     
     
     #pixel-perfect-container .pixel-perfect-panel-footer a {
@@ -276,7 +278,7 @@ transform-style: preserve-3d;
     
     }
     #pixel-perfect-container .pixel-perfect-panel-main > div {
-      padding: 6px 0;
+          padding: 6px 0;
           background-size: auto auto;
     
     }
@@ -329,7 +331,6 @@ transform-style: preserve-3d;
      color: white;
       text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
     opacity: 1;
-		
     }
     
     glitch {
