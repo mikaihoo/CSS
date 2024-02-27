@@ -235,7 +235,7 @@ border-radius: 15px;
 		
     #pixel-perfect-container .pixel-perfect-panel > div {
       position: relative;
-      color: black;
+      color: white;
       text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;	
 			
 background: linear-gradient(0deg, rgba(151,134,137,5.7175070711878502) 55%, rgba(36,0,25,0.767927239255077) 56%, rgba(224,19,58,0.7175070711878502) 57%, rgba(122,100,115,0.34215693113182777) 57%, rgba(36,0,25,1) 57%, rgba(105,80,97,0.5662465669861695) 58%); 
