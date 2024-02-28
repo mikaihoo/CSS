@@ -1,14 +1,3 @@
-#pixel-perfect:has{
-      position: relative;
-      z-index: calc(1 / 0);
-		
-}
-.pixel-perfect:has{
-      position: relative;
-      z-index: calc(1 / 0);
-			
-}
-
 x1 {
 	 position: relative;
 	 transform-style: preserve-3d;
@@ -165,7 +154,8 @@ z-index: 2147483646;
     }
     
     .pixel-perfect-overlay-image {
-      z-index: calc(1 / 0);
+      position: relative;
+			z-index: calc(1 / 0);
       display: inline-block;
       padding: px px;
     
@@ -173,7 +163,8 @@ z-index: 2147483646;
     }
     
     .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex {
-	
+	position: relative;
+z-index:calc(1 / 0);
 
     }
     
