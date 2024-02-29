@@ -421,20 +421,14 @@ transform-style: preserve-3d;
     opacity: 1;
     }
     
-   glitch {
+    glitch {
     	
     	position:relative;
         z-index: 2147483646; 	
         display: block;
         font-size: calc(0.4em + 0.4vw );
         font-weight: 400;
-    　font-color: transparent;
-     text-transform: uppercase;
-        user-select: none;
-        white-space: nowrap;
-        filter: blur(0.007em);
-        animation: shake 2.5s linear infinite;
-	transform: rotate3d(1, 1, 0, 30deg);
+        color: rgba(215, 44, 44, .5);
     background-size: auto  auto;
     background-color: rgba(255, 255, 255, 0);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
@@ -524,3 +518,4 @@ transform-style: preserve-3d;
         100% {
             clip: rect(90px, 9999px, 79px, 0)
         }
+    }
