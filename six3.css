@@ -421,16 +421,20 @@ transform-style: preserve-3d;
     opacity: 1;
     }
     
-    glitch {
+   glitch {
     	
     	position:relative;
         z-index: 2147483646; 	
         display: block;
         font-size: calc(0.4em + 0.4vw );
         font-weight: 400;
-        color: rgba(215, 44, 44, .5);
-        text-shadow: 0 0 10px #9acd32;
-	  position: relative;
+    　font-color: transparent;
+     text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+        text-transform: uppercase;
+        user-select: none;
+        white-space: nowrap;
+        filter: blur(0.007em);
+        animation: shake 2.5s linear infinite;
 
     }
     .glitch::after, .glitch::before {
@@ -514,4 +518,3 @@ transform-style: preserve-3d;
         100% {
             clip: rect(90px, 9999px, 79px, 0)
         }
-    }
