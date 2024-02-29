@@ -219,8 +219,8 @@ z-index:calc(1 / 0);
 
 transform-style: preserve-3d;
 background-size: auto auto;
-background-color: rgba(179, 152, 85, 0.18);
-background-image: repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0, 0, 0, 0.03) 3px, rgba(0, 0, 0, 0.03) 4px ),repeating-linear-gradient(100deg, transparent, transparent 1px, rgba(179, 152, 85, 0.36) 1px, rgba(179, 152, 85, 0.36) 2px ),repeating-linear-gradient(50deg, transparent, transparent 1px, rgba(255, 249, 230, 1) 1px, rgba(255, 249, 230, 1) 2px );
+background-color: rgba(179, 152, 85, 0);
+background-image: repeating-linear-gradient(0deg, transparent, transparent 10px, rgba(230, 251, 56, 0.15) 10px, rgba(230, 251, 56, 0.15) 20px ),repeating-linear-gradient(100deg, transparent, transparent 3px, rgba(255, 10, 10, 0.58) 3px, rgba(255, 10, 10, 0.58) 4px ),repeating-linear-gradient(90deg, transparent, transparent 1px, rgba(0, 255, 212, 0.36) 1px, rgba(0, 255, 212, 0.36) 2px ),repeating-linear-gradient(50deg, transparent, transparent 1px, rgba(179, 152, 85, 0) 1px, rgba(179, 152, 85, 0) 2px );
 
 	border-bottom: 1px solid white;	
 	border-right: 1px solid white;	
