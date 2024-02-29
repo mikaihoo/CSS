@@ -434,6 +434,13 @@ transform-style: preserve-3d;
         white-space: nowrap;
         filter: blur(0.007em);
         animation: shake 2.5s linear infinite;
+	transform: rotate3d(1, 1, 0, 30deg);
+    background-size: auto  auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
+     animation: blinkShadowsFilter 8s ease-in infinite;
+      -webkit-border-radius: 11px;
+    opacity: 1;
 
     }
     .glitch::after, .glitch::before {
