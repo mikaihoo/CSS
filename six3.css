@@ -323,12 +323,12 @@ z-index:calc(1 / 0);
 #pixel-perfect-container .pixel-perfect-panel > div {
     position: relative;
     color: white;
-    text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-    background: linear-gradient(0deg, rgba(79, 96, 251, 0.5) 0%, rgba(18, 18, 18, 0.8) 100%);
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(0deg, rgba(179, 152, 85, 0.5) 50%, rgba(179, 152, 85, 1) 50%, rgba(179, 152, 85, 0.5) 51%);
     border-radius: 10px;
     transform: translate3d(0px, 0px, 25px);
-    border-bottom: 2px solid #0f0f0f;
-    border-right: 2px solid #0f0f0f;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5)
 }
 
 
