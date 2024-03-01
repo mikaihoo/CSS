@@ -357,12 +357,12 @@ transform-style: preserve-3d;
     }
     
     
-    #pixel-perfect-container .pixel-perfect-panel-main .pixel-perfect-panel-footer  {
+    #pixel-perfect-container .pixel-perfect-panel-main {
       background-size: auto auto;
     
     
     }
-    #pixel-perfect-container .pixel-perfect-panel-main .pixel-perfect-panel-footer > div {
+    #pixel-perfect-container .pixel-perfect-panel-main > div {
           padding: 6px 0;
           background-size: auto auto;
     
