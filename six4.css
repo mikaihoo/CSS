@@ -340,7 +340,7 @@ transform-style: preserve-3d;
     
     #pixel-perfect-container .pixel-perfect-panel-footer a {
       background-size: auto auto;
-      color: white;
+      color: transparent;
       text-decoration: none;
     
     }
@@ -421,7 +421,7 @@ transform-style: preserve-3d;
     font-weight: 400;
     transform: rotate3d(1, 1, 0, 30deg);
     background-size: auto auto;
-    background-color: rgba(0, 0, 0, 0);
+　　background-color: rgba(255, 255, 255, 0);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(250, 215, 87, 0.24) 6px, rgba(250, 215, 87, 0.24) 7px);
     user-select: none;
     white-space: nowrap;
