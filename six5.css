@@ -245,7 +245,7 @@ transform-style: preserve-3d;
     
     #pixel-perfect-container .pixel-perfect-panel-footer a {
       background-size: auto auto;       
-     background-color: rgba(255, 255, 255, 0);
+    color: white;
      opacity: 1;
     }
 
