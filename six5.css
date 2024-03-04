@@ -250,7 +250,6 @@ transform-style: preserve-3d;
 
     #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
       background-size: auto auto;
-    color: transparent;
     
     }
  
