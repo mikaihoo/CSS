@@ -232,7 +232,6 @@ z-index:calc(1 / 0);
     border-right: 2px solid rgba(255, 255, 255, 0.5)
 }
 
-
 		
     #pixel-perfect-container .pixel-perfect-panel-footer {
       padding: 0px;
@@ -240,6 +239,13 @@ z-index:calc(1 / 0);
       background-size: auto auto;
 transform-style: preserve-3d;
 
+    }
+
+    #pixel-perfect-container .pixel-perfect-panel-footer a {
+      background-size: auto auto;
+        color: transparent;
+      text-decoration: none;
+    
     }
     
     
