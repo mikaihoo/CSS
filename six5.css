@@ -243,9 +243,12 @@ transform-style: preserve-3d;
     
     
     #pixel-perfect-container .pixel-perfect-panel-footer a {
-      background-size: auto auto;
-        color: transparent;
-      text-decoration: none;
+    background-size: auto  auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
+     animation: blinkShadowsFilter 8s ease-in infinite;
+      -webkit-border-radius: 11px;
+    opacity: 1;
     
     }
     #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
