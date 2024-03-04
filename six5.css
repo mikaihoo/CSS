@@ -243,11 +243,6 @@ transform-style: preserve-3d;
     }
     
     
-    #pixel-perfect-container .pixel-perfect-panel-footer a {
-      background-size: auto auto;
-      text-decoration: none;
-    
-    }
     #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
       background-size: auto auto;
     
