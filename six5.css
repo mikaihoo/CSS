@@ -247,8 +247,7 @@ position: relative;
     }
     
     .pixel-perfect-overlay-image {
-      position: relative;
-			z-index: calc(1 / 0);
+      z-index: calc(1 / 0);
       display: inline-block;
       padding: px px;
     
