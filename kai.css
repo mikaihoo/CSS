@@ -208,26 +208,26 @@ border-right: 2px solid rgba(255, 255, 255, 0.5);
 
 #pixel-perfect-container .pixel-perfect-panel>div {
   position: relative;
-  color: transparent;;
+  color: white;
   text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
 }
 
 #pixel-perfect-container .pixel-perfect-panel-footer {
   padding: 0;
   cursor: move;
-  color: transparent;
+ 
   background-size: auto auto;
   transform-style: preserve-3d;     
 }
 
 #pixel-perfect-container .pixel-perfect-panel-footer a {
-color: transparent;
  background-size: auto auto;
 
 }
 
 #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
-  background-size: auto auto;
+color: white;  
+background-size: auto auto;
 }
 
 #pixel-perfect-container .pixel-perfect-panel-main {
