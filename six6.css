@@ -225,6 +225,7 @@ transform: rotate3d(10, -1, 0, 0deg);
 
 #pixel-perfect-container .pixel-perfect-panel > div {
     position: relative;
+	transform: translate3d(0px, 0px, 25px);
     color: white;
  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px; 
 }
