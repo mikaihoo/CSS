@@ -209,7 +209,8 @@ z-index:calc(1 / 0);
     
 #pixel-perfect-container .pixel-perfect-panel {
     position: fixed;
-		z-index: calc(1 / 0);
+　　 z-index: calc(1 / 0);
+    transform: rotateX(15deg) rotateY(-20deg);
     top: 5px;
     right: 5px;
     width: 150px;
@@ -220,7 +221,6 @@ z-index:calc(1 / 0);
     border-radius: 15px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     border-right: 2px solid rgba(255, 255, 255, 0.5)
-transform: rotateX(15deg) rotateY(-20deg);
 }
 
 #pixel-perfect-container .pixel-perfect-panel > div {
