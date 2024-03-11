@@ -154,7 +154,7 @@ z-index: 2147483646;
     }
     
     .pixel-perfect-overlay-image {
-　　　z-index:calc(infinity); 
+
       display: inline-block;
       padding: px px;
     
@@ -192,7 +192,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     }
     #pixel-perfect-container .pixel-perfect-overlay {
       position: absolute;
-      z-index: calc(infinity);
+
       mix-blend-mode: overlay;
       background-size: cover;
       display: block;
