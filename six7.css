@@ -202,9 +202,6 @@ transform: rotate3d(-5, -1, 0, 20deg);
  #pixel-perfect-container .pixel-perfect-overlay::backdrop  {
 mix-blend-mode: luminosity;    
     }
-::backdrop {
-  background-color: #448;
-}
     
     .pixel-perfect-hidden {
       display: none !important;
