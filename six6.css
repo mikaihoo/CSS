@@ -200,9 +200,7 @@ z-index:calc(1 / 0);
       left: 0;
       opacity: 0.8;
       cursor: move;
-    .child{
-background-color: var(--back-color);
-mix-blend-mode:luminosity;
+
     }
     
     .pixel-perfect-hidden {
