@@ -202,7 +202,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
 	    
     }
 
-.img.pixel-perfect-overlay {
+.pixel-perfect-overlay > img {
 mix-blend-mode:luminosity;
 }
 	
