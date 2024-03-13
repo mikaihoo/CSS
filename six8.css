@@ -1,14 +1,14 @@
 dialog {
-  padding: 0;
-  border: 0;
-  border-radius: 0.6rem;
-  box-shadow: 0 0 1em black;
+      position: absolute;
+      mix-blend-mode: luminosity;
+      background-size: cover;
+      display: block;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      cursor: move;
 }
  
-dialog::backdrop {
-  /* 背景を半透明のブラックにする */
-  background-color: rgba(0, 0, 0, 0.4);
-}
 x1 {
 	 position: relative;
 	 transform-style: preserve-3d;
