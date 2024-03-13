@@ -202,12 +202,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     }
 .pixel-perfect-overlay::backdrop {
 mix-blend-mode:luminosity;
- background-size: cover;
-      display: block;
-      top: 0;
-      left: 0;
-      opacity: 1;
-      cursor: move;	
+
 }
     
     .pixel-perfect-hidden {
