@@ -1,13 +1,4 @@
-.dialog {
-      position: absolute;
-      mix-blend-mode: luminosity;
-      background-size: cover;
-      display: block;
-      top: 0;
-      left: 0;
-      opacity: 0.8;
-      cursor: move;
-}
+
  
 x1 {
 	 position: relative;
