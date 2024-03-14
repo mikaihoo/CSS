@@ -166,13 +166,7 @@ position: relative;
      
     }
     
-.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter {
-position: relative;
-transform: rotate3d(-5, -1, 0, 20deg);
-	
-    }
- .pixel-perfect-overlay-ex {
-	position: relative;
+.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-ex { 
 	
     }
 		
