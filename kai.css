@@ -230,6 +230,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     top: 5px;
     right: 5px;
     width: 150px;
+　　transition: transform 400ms;
     transform-style: preserve-3d;
     background-size: auto auto;
     text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
