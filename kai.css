@@ -245,6 +245,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     border-radius: 15px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     border-right: 2px solid rgba(255, 255, 255, 0.5);
+　　 z-index: calc(Infinity);
 }
 
 #pixel-perfect-container .pixel-perfect-panel > div {
