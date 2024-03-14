@@ -37,7 +37,7 @@ x1 {
     m1 {
 display: inline-block;
 position: relative;
-z-index: 2147483646;
+
       opacity:0.8 ;
       top: 0%;
       left: 0%;
@@ -195,6 +195,7 @@ z-index: 2147483646;
 
     }
     #pixel-perfect-container .pixel-perfect-overlay {
+　　　mix-blend-mode: overylay;
       position: absolute;
       background-size: cover;
       display: block;
@@ -211,17 +212,7 @@ z-index: 2147483646;
     mix-blend-mode: luminosity; /* Default blend mode */
 }
 	
-/* Additional CSS for button container */
-#blend-mode-buttons {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10000; /* Ensure it's above overlay */
-}
 
-#blend-mode-buttons button {
-    margin-right: 10px;
-}
     
     .pixel-perfect-hidden {
       display: none !important;
@@ -233,7 +224,6 @@ z-index: 2147483646;
     top: 5px;
     right: 5px;
     width: 150px;
-　　transition: transform 400ms;
     transform-style: preserve-3d;
     background-size: auto auto;
     text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
@@ -332,8 +322,6 @@ color: white;
     }
     
     .glitch {
-    position: relative;
-    z-index: 2147483646;
     display: block;
     opacity: 0.8;
     font-size: calc(0.4em + 0.4vw);
