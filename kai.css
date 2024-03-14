@@ -194,17 +194,6 @@ x1 {
       cursor: pointer;
     
     }
-    #pixel-perfect-container  {
-
-      background-size: cover;
-      position: absolute;
-      display: block;
-      top: 0;
-      left: 0;
-      opacity: 0.8;
-      cursor: move;
-    
-    }
 
 .pixel-perfect-overlay {
       background-size: cover;
@@ -217,6 +206,20 @@ x1 {
 	mix-blend-mode: luminosity;
         cursor: move;
 	}
+
+
+    #pixel-perfect-container  {
+
+      background-size: cover;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      cursor: move;
+    
+    }
+
 
 #blend-mode-buttons {
 	position: fixed;
