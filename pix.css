@@ -196,7 +196,7 @@ x1 {
     }
     #pixel-perfect-container .pixel-perfect-overlay {
 
-      mix-blend-mode:  overlay;
+   
       background-size: cover;
       position: absolute;
       display: block;
