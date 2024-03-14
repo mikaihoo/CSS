@@ -195,8 +195,8 @@ x1 {
     
     }
     #pixel-perfect-container .pixel-perfect-overlay {
-      z-index: calc(1 / 0);
-      mix-blend-mode:  luminosity;
+
+      mix-blend-mode:  overlay;
       background-size: cover;
       position: absolute;
       display: block;
@@ -206,6 +206,12 @@ x1 {
       cursor: move;
     
     }
+ .pixel-perfect-overlay {
+    top: 0;
+    left: 0;
+     z-index:calc(infinity); /* Ensure it's always on top */
+    mix-blend-mode: luminosity; /* Default blend mode */
+}
     
     .pixel-perfect-hidden {
       display: none !important;
