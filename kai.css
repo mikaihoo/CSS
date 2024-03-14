@@ -195,8 +195,7 @@ x1 {
     
     }
     #pixel-perfect-container  {
-      z-index: calc(1 / 0);
-      mix-blend-mode: overlay;
+
       background-size: cover;
       position: absolute;
       display: block;
