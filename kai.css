@@ -162,7 +162,7 @@ x1 {
     }
     
     .pixel-perfect-overlay-image {
-      z-index: calc(1 / 0);
+
       display: inline-block;
       padding: px px;
     
@@ -195,8 +195,7 @@ x1 {
     
     }
     #pixel-perfect-container  {
-      z-index: calc(1 / 0);
-      mix-blend-mode: overlay;
+
       background-size: cover;
       position: absolute;
       display: block;
@@ -213,7 +212,7 @@ x1 {
         opacity: 0.8; 
 	z-index: 9999; 
 	mix-blend-mode: luminosity;
-
+      cursor: move;
 	}
 
 #blend-mode-buttons {
@@ -241,7 +240,7 @@ x1 {
   
       transform-style: preserve-3d;
       transform: rotateX(15deg) rotateY(-20deg);
-     z-index: calc(Infinity);
+
 
 background-size: auto auto;
 　transition: transform 400ms; 	text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px; 
@@ -259,24 +258,23 @@ border-right: 2px solid rgba(255, 255, 255, 0.5);
       text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
         
     }
+
     #pixel-perfect-container .pixel-perfect-panel-footer {
       padding: 0;
       cursor: move;
       background-size: auto auto;
       
     
-    
     }
     
-    
-    
+
     #pixel-perfect-container .pixel-perfect-panel-footer a {
       background-size: auto auto;
     
     }
+
     #pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
       background-size: auto auto;
-    
     
     }
     
