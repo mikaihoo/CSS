@@ -174,7 +174,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
 		
     #pixel-perfect-container {
 　　　position: absolute;
-	 z-index:calc(infinity);
+　　　z-index:calc(infinity);
       top: 0;
       left: 0;
       width: 100%;
@@ -199,7 +199,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
       left: 0;
       opacity: 0.8;
       cursor: move;
-	    z-index: 9999; 
+
     }
  .pixel-perfect-overlay {
     top: 0;
@@ -269,6 +269,7 @@ color: white;
     
     
     #pixel-perfect-container .pixel-perfect-panel-main {
+　　　 z-index:calc(infinity);
       background-size: auto auto;
     
     
