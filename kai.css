@@ -194,7 +194,7 @@ x1 {
       cursor: pointer;
     
     }
-    #pixel-perfect-container .pixel-perfect-overlay {
+    #pixel-perfect-container  {
       z-index: calc(1 / 0);
       mix-blend-mode: overlay;
       background-size: cover;
@@ -361,10 +361,12 @@ border-right: 2px solid rgba(255, 255, 255, 0.5);
     .glitch::before {
         text-shadow: -3px 0 # rgba(255, 255, 0, 0.6);
         animation: 2.5s linear infinite alternate-reverse glitch1
+ white-space: nowrap;
     }
     .glitch::after {
         text-shadow: 3px 0 rgba(0, 255, 0, 0.6); 
         animation: 2.5s linear infinite alternate-reverse glitch2
+ white-space: nowrap;
     }
     @keyframes glitch1 {
         0% {
