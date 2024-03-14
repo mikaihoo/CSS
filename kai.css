@@ -202,6 +202,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     #pixel-perfect-container .pixel-perfect-overlay {
       position: absolute;
       background-size: cover;
+　　　 z-index: calc(Infinity);
       display: block;
       top: 0;
       left: 0;
@@ -211,7 +212,6 @@ transform: rotate3d(-5, -1, 0, 20deg);
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-
     z-index: 9999; /* Ensure it's always on top */
     mix-blend-mode: luminosity; /* Default blend mode */
 }
