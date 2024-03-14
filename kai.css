@@ -162,7 +162,7 @@ x1 {
     }
     
     .pixel-perfect-overlay-image {
-      z-index: calc(1 / 0);
+
       display: inline-block;
       padding: px px;
     
@@ -207,12 +207,15 @@ x1 {
     }
 
 .pixel-perfect-overlay {
+      background-size: cover;
+      position: absolute;
+      display: block;
 	top: 0;
 	left: 0;
         opacity: 0.8; 
 	z-index: 9999; 
 	mix-blend-mode: luminosity;
-
+        cursor: move;
 	}
 
 #blend-mode-buttons {
