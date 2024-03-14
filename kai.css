@@ -199,7 +199,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
       left: 0;
       opacity: 0.8;
       cursor: move;
-
+z-index: 9999; 
     }
  .pixel-perfect-overlay {
     top: 0;
