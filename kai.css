@@ -194,8 +194,9 @@ x1 {
       cursor: pointer;
     
     }
-    #pixel-perfect-container  {
-
+    #pixel-perfect-container .pixel-perfect-overlay {
+	z-index: 9999; 
+	mix-blend-mode: luminosity;
       background-size: cover;
       position: absolute;
       display: block;
@@ -205,15 +206,6 @@ x1 {
       cursor: move;
     
     }
-
-.pixel-perfect-overlay {
-	top: 0;
-	left: 0;
-        opacity: 0.8; 
-	z-index: 9999; 
-	mix-blend-mode: luminosity;
-      cursor: move;
-	}
 
 #blend-mode-buttons {
 	position: fixed;
