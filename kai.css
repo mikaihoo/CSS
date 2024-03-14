@@ -254,7 +254,6 @@ transform: rotate3d(-5, -1, 0, 20deg);
       padding: 0px;
       cursor: move;
       background-size: auto auto;
-transform-style: preserve-3d;
 color: white;
     }
     
@@ -272,7 +271,6 @@ color: white;
     
     
     #pixel-perfect-container .pixel-perfect-panel-main {
-　　　 z-index: 9999; 
       background-size: auto auto;
     
     
@@ -311,8 +309,8 @@ color: white;
       margin: 0;
       padding: 0;
       width: 50px;
-			
-    }
+
+}
     #pixel-perfect-container .pixel-perfect-panel-settings input {
         background-color: rgba(215, 44, 44, 0.2);
         border: 3px solid #333;
@@ -334,8 +332,7 @@ color: white;
     }
     
     .glitch {
-    position: relative;
-    z-index: 2147483646;
+
     display: block;
     opacity: 0.8;
     font-size: calc(0.4em + 0.4vw);
