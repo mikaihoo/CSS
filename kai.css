@@ -268,7 +268,7 @@ color: white;
     
     
     #pixel-perfect-container .pixel-perfect-panel-main {
-　　　 z-index:calc(infinity);
+　　　 z-index: 9999; 
       background-size: auto auto;
     
     
