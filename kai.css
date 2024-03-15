@@ -195,8 +195,8 @@ position: relative;
 
     }
     #pixel-perfect-container {
-
       position: absolute;
+　　　mix-blend-mode: luminosity; /* Default blend mode */
       z-index: 9999; /* Adjust as needed */
       background-size: cover;
       display: block;
