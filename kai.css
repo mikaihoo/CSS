@@ -200,15 +200,9 @@ transform: rotate3d(-5, -1, 0, 20deg);
       left: 0;
       opacity: 0.8;
       cursor: move;
-z-index: 9999; 
+      mix-blend-mode: luminosity;
     }
- .pixel-perfect-overlay {
-    top: 0;
-    left: 0;
 
-    z-index: 9999; /* Ensure it's always on top */
-    mix-blend-mode: luminosity; /* Default blend mode */
-}
 
 	
 /* Additional CSS for button container */
