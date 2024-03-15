@@ -180,7 +180,8 @@ transform: rotate3d(-5, -1, 0, 20deg);
     font-family: Arial;
     font-size: 12px;
     z-index: 2147483647; /* 最上位のz-indexに設定 */
-　　　mix-blend-mode: luminosity; /* 混合モードを適用 */
+    mix-blend-mode: luminosity; /* 混合モードを適用 */
+
     }
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
@@ -227,7 +228,7 @@ z-index: 9999;
     }
     
 #pixel-perfect-container .pixel-perfect-panel {
-    position: fixed;
+  position: fixed;
     transform: rotateX(15deg) rotateY(-20deg);
     top: 5px;
     right: 5px;
@@ -270,8 +271,7 @@ color: white;
     
     
     #pixel-perfect-container .pixel-perfect-panel-main {
-　　　position: absolute;
-    z-index: 9999; /* Adjust as needed */
+　　　 z-index: 9999; 
       background-size: auto auto;
     
     
