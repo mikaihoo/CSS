@@ -185,7 +185,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
 
     }
 
-  #pixel-perfect-container::backdrop {
+  #pixel-perfect-container:before {
 	  mix-blend-mode: luminosity;
 	  
 	    }
