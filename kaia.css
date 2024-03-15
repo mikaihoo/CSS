@@ -182,7 +182,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     font-family: Arial;
     font-size: 12px;
     z-index: 2147483647; /* 最上位のz-indexに設定 */
-    mix-blend-mode: luminosity;
+mix-blend-mode: normal; 
     }
 
 
@@ -208,18 +208,6 @@ transform: rotate3d(-5, -1, 0, 20deg);
 
     }
 
-	
-/* Additional CSS for button container */
-#blend-mode-buttons {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10000; /* Ensure it's above overlay */
-}
-
-#blend-mode-buttons button {
-    margin-right: 10px;
-}
     
     .pixel-perfect-hidden {
       display: none !important;
@@ -239,7 +227,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     border-right: 2px solid rgba(255, 255, 255, 0.5);
     z-index: 2147483647; /* 最上位のz-indexに設定 */
-mix-blend-mode: normal;
+
 }
 
 #pixel-perfect-container .pixel-perfect-panel > div {
