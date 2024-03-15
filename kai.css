@@ -195,7 +195,7 @@ position: relative;
 
     }
     #pixel-perfect-container .pixel-perfect-overlay {
-　　　 mix-blend-mode: luminosity; /* Default blend mode */
+　
       position: absolute;
       background-size: cover;
       display: block;
@@ -206,7 +206,7 @@ position: relative;
 
     }
  .pixel-perfect-overlay {
-　　　mix-blend-mode: overylay;
+　　　　 mix-blend-mode: luminosity; /* Default blend mode */
     top: 0;
     left: 0;
     z-index: 9999; /* Ensure it's always on top */
