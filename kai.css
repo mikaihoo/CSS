@@ -207,11 +207,10 @@ position: relative;
 
     }
  .pixel-perfect-overlay {
-
     top: 0;
     left: 0;
     z-index: 9999; /* Ensure it's always on top */
-   
+    mix-blend-mode: luminosity; /* Default blend mode */
 }
 	
 
