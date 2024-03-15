@@ -180,7 +180,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
     font-family: Arial;
     font-size: 12px;
     z-index: 2147483647; /* 最上位のz-indexに設定 */
-   
+   	    mix-blend-mode: luminosity; /* Default blend mode */
 
     }
     #pixel-perfect-container .pixel-perfect-switch {
@@ -201,14 +201,12 @@ transform: rotate3d(-5, -1, 0, 20deg);
       left: 0;
       opacity: 0.8;
       cursor: move;
-	    mix-blend-mode: luminosity; /* Default blend mode */
 z-index: 9999; 
     }
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-
-    z-index: 9999; /* Ensure it's always on top */
+   z-index: 9999; /* Ensure it's always on top */
     
 }
 	
