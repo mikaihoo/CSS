@@ -195,7 +195,7 @@ position: relative;
 
     }
     #pixel-perfect-container .pixel-perfect-overlay {
-　　　mix-blend-mode: overylay;
+
       position: absolute;
       background-size: cover;
       display: block;
