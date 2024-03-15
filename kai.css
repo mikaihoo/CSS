@@ -171,6 +171,18 @@ transform: rotate3d(-5, -1, 0, 20deg);
 	position: relative;
         z-index:calc(infinity);		
     }
+
+    #pixel-perfect-container .pixel-perfect-overlay {
+      position: absolute;
+      background-size: cover;
+      display: block;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      cursor: move;
+ z-index: 2147483647; 
+  mix-blend-mode: luminosity;
+    }
 		
     #pixel-perfect-container {
     position: absolute;
@@ -192,17 +204,7 @@ transform: rotate3d(-5, -1, 0, 20deg);
       cursor: pointer;
 
     }
-    #pixel-perfect-container .pixel-perfect-overlay {
-      position: absolute;
-      background-size: cover;
-      display: block;
-      top: 0;
-      left: 0;
-      opacity: 0.8;
-      cursor: move;
- z-index: 2147483646; 
-  mix-blend-mode: luminosity;
-    }
+
 
 
 	
