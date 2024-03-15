@@ -175,15 +175,6 @@ position: relative;
         
     }
 		
-#pixel-perfect-container {
-    position: absolute;
-    z-index: 9999; /* Adjust as needed */
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-family: Arial;
-    font-size: 12px;
-}
 
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
@@ -194,22 +185,22 @@ position: relative;
       cursor: pointer;
 
     }
-    #pixel-perfect-container {
-      position: absolute;
-　　　mix-blend-mode: luminosity; /* Default blend mode */
-      z-index: 9999; /* Adjust as needed */
-      background-size: cover;
-      display: block;
-      top: 0;
-      left: 0;
-      opacity: 0.8;
-      cursor: move;
-
-    }
+#pixel-perfect-container {
+    position: absolute;
+    z-index: 9999; /* Adjust as needed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 12px;
+}
 .pixel-perfect-overlay {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
     z-index: 9999; /* Ensure it's always on top */
     mix-blend-mode: luminosity; /* Default blend mode */
 }
