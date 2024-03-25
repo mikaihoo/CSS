@@ -206,12 +206,7 @@ x1 {
       cursor: move;
     
     }
- .pixel-perfect-overlay {
-    top: 0;
-    left: 0;
-     z-index:calc(infinity); /* Ensure it's always on top */
-    mix-blend-mode: luminosity; /* Default blend mode */
-}
+
     
     .pixel-perfect-hidden {
       display: none !important;
