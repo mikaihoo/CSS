@@ -205,7 +205,7 @@ z-index: 9999;
     top: 0;
     left: 0;
     z-index: 9999; /* Ensure it's always on top */
-    mix-blend-mode: color; /* Default blend mode */
+ /* Default blend mode */
 }
 	
 /* Additional CSS for button container */
