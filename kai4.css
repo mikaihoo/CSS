@@ -203,7 +203,7 @@ z-index: 2147483647; /* 最上位のz-indexに設定 */
 }
 .pixel-perfect-overlay {
       cursor: move;
-
+z-index: 10000; /* Ensure it's above overlay */
 mix-blend-mode: color; /* Default blend mode */	
 }
 	
