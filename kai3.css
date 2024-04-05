@@ -206,7 +206,7 @@ z-index: 9999;
     top: 0;
     left: 0;
     z-index: 9999; /* Ensure it's always on top */
-mix-blend-mode: multiply; /* Default blend mode */
+mix-blend-mode: hard-light; /* Default blend mode */
 }
 	
 /* Additional CSS for button container */
@@ -215,7 +215,7 @@ mix-blend-mode: multiply; /* Default blend mode */
     top: 20px;
     left: 20px;
 　z-index: 10000; /* Ensure it's above overlay */
-　　mix-blend-mode: luminosity; 
+　　mix-blend-mode: hue; 
 }
 
 #blend-mode-buttons button {
