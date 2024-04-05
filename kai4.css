@@ -204,7 +204,7 @@ z-index: 2147483647; /* 最上位のz-indexに設定 */
 .pixel-perfect-overlay {
       cursor: move;
 z-index: 9999; /* Ensure it's always on top */
-mix-blend-mode: plus-lighter; /* Default blend mode */	
+mix-blend-mode: color; /* Default blend mode */	
 }
 	
 /* Additional CSS for button container */
@@ -213,7 +213,7 @@ mix-blend-mode: plus-lighter; /* Default blend mode */
     top: 20px;
     left: 20px;
 z-index: 10000; /* Ensure it's above overlay */
-　　mix-blend-mode: color-dodge; 
+　　mix-blend-mode: difference; 
 }
 	
 
