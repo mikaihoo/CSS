@@ -200,7 +200,7 @@ z-index: 2147483647; /* 最上位のz-indexに設定 */
       left: 0;
       opacity: 0.8;
       cursor: move;
-
+mix-blend-mode: hard-light; /* Default blend mode */
     }
  .pixel-perfect-overlay {
     top: 0;
