@@ -200,15 +200,10 @@ z-index: 2147483647; /* 最上位のz-indexに設定 */
       left: 0;
       opacity: 0.8;
       cursor: move;
+z-index: 9999; /* Ensure it's always on top */
 mix-blend-mode: hard-light; /* Default blend mode */
     }
- .pixel-perfect-overlay {
-    top: 0;
-    left: 0;
-    z-index: 9999; /* Ensure it's always on top */
-mix-blend-mode: hard-light; /* Default blend mode */
-}
-	
+
 /* Additional CSS for button container */
 #blend-mode-buttons {
     position: fixed;
