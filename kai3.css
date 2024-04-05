@@ -216,7 +216,7 @@ mix-blend-mode: hard-light; /* Default blend mode */
     left: 20px;
 　z-index: 10000; /* Ensure it's above overlay */
 　　mix-blend-mode: saturation; 
-
+}
 #blend-mode-buttons button {
     margin-right: 10px;
 }
