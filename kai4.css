@@ -191,7 +191,7 @@ z-index: 2147483647; /* 最上位のz-indexに設定 */
       cursor: pointer;
 
     }
-    #pixel-perfect-container  {
+    #pixel-perfect-container.pixel-perfect-overlay  {
       position: absolute;
       background-size: cover;
       display: block;
@@ -200,11 +200,7 @@ z-index: 2147483647; /* 最上位のz-indexに設定 */
       opacity: 0.8;
       cursor: move;
 z-index: 9999; 
-    }
- .pixel-perfect-overlay {
-    top: 0;
-    left: 0;
-    z-index: 9999; /* Ensure it's always on top */
+
 mix-blend-mode: color-burn ; /* Default blend mode */
 }
 	
