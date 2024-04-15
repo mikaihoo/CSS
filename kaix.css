@@ -302,12 +302,12 @@ position: relative;
 z-index:calc(infinity);
 }
      #pixel-perfect-container {
-　　　position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      font-family: Arial;
-      font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 12px;
 z-index: 2147483647; /* 最上位のz-indexに設定 */ 	
     }
     #pixel-perfect-container .pixel-perfect-switch {
