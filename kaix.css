@@ -308,7 +308,7 @@ z-index:calc(infinity);
     width: 100%;
     font-family: Arial;
     font-size: 12px;
-    z-index:2147483647; /* 最上位のz-indexに設定 */ 
+    z-index: 2147483647; /* 最上位のz-indexに設定 */
 
     }
 
