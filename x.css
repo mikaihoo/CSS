@@ -206,6 +206,191 @@ z-index: 2147483646;
  clip-path: var(--slice-0);
 }
 
+.button:hover::after {
+ animation: 1s glitch;
+ animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+ 0% {
+  clip-path: var(--slice-1);
+  transform: translate(-20px, -10px);
+ }
+
+ 10% {
+  clip-path: var(--slice-3);
+  transform: translate(10px, 10px);
+ }
+
+ 20% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 10px);
+ }
+
+ 30% {
+  clip-path: var(--slice-3);
+  transform: translate(0px, 5px);
+ }
+
+ 40% {
+  clip-path: var(--slice-2);
+  transform: translate(-5px, 0px);
+ }
+
+ 50% {
+  clip-path: var(--slice-3);
+  transform: translate(5px, 0px);
+ }
+
+ 60% {
+  clip-path: var(--slice-4);
+  transform: translate(5px, 10px);
+ }
+
+ 70% {
+  clip-path: var(--slice-2);
+  transform: translate(-10px, 10px);
+ }
+
+ 80% {
+  clip-path: var(--slice-5);
+  transform: translate(20px, -10px);
+ }
+
+ 90% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 0px);
+ }
+
+ 100% {
+  clip-path: var(--slice-1);
+  transform: translate(0);
+ }
+}
+  .pixel-perfect-overlay-btn {
+
+      display: inline-block;
+      padding: px px;
+      border: solid 2px black;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.2);
+      color: white;
+      text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+      opacity: 1;
+    }
+    
+    .pixel-perfect-settings-btn {
+
+      display: inline-block;
+      padding: px px;
+      border: solid 2px black;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.2);
+      color: white;
+      text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+    opacity: 1;
+    }
+    
+    .pixel-perfect-overlay-image {
+
+      display: inline-block;
+      padding: px px;
+ 
+     
+    }
+    
+.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter {
+position: relative;
+z-index:calc(infinity);
+transform: rotate3d(-5, -1, 0, 20deg);
+	
+    }
+ .pixel-perfect-overlay-ex {
+	position: relative;
+        z-index:calc(infinity);		
+    }
+		
+    #pixel-perfect-container {
+　　　position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      font-family: Arial;
+      font-size: 12px;
+z-index: 2147483647; /* 最上位のz-indexに設定 */ 	
+    }
+    #pixel-perfect-container .pixel-perfect-switch {
+      position: fixed;
+　　　 z-index:calc(infinity);
+      right: 30px;
+      top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+
+    }
+
+   #pixel-perfect-container .pixel-perfect-overlay {
+      position: absolute;
+      background-size: cover;
+      display: block;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      cursor: move;
+z-index: 9999; 
+    }
+ .pixel-perfect-overlay {
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure it's always on top */
+mix-blend-mode: hard-light; /* Default blend mode */
+}
+	
+/* Additional CSS for button container */
+#blend-mode-buttons {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+　z-index: 10000; /* Ensure it's above overlay */
+　　mix-blend-mode: luminosity; 
+}
+#blend-mode-buttons button {
+    margin-right: 10px;
+}
+blend-mode-buttons button ,
+button::after {
+ padding: 16px 20px;
+ font-size: 18px;
+ background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+ border: 0;
+ color: #fff;
+ letter-spacing: 3px;
+ line-height: 1;
+ box-shadow: 6px 0px 0px #00e6f6;
+ outline: transparent;
+ position: relative;
+}
+
+button::after {
+ --slice-0: inset(50% 50% 50% 50%);
+ --slice-1: inset(80% -6px 0 0);
+ --slice-2: inset(50% -6px 30% 0);
+ --slice-3: inset(10% -6px 85% 0);
+ --slice-4: inset(40% -6px 43% 0);
+ --slice-5: inset(80% -6px 5% 0);
+ content: "HOVER ME";
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+ text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+ clip-path: var(--slice-0);
+}
+
 button:hover::after {
  animation: 1s glitch;
  animation-timing-function: steps(2, end);
@@ -267,84 +452,6 @@ button:hover::after {
   transform: translate(0);
  }
 }
-    .pixel-perfect-overlay-btn {
-
-      display: inline-block;
-      padding: px px;
-      border: solid 2px black;
-      border-radius: 3px;
-      background: rgba(0, 0, 0, 0.2);
-      color: white;
-      text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-      opacity: 1;
-    }
-    
-    .pixel-perfect-settings-btn {
-
-      display: inline-block;
-      padding: px px;
-      border: solid 2px black;
-      border-radius: 3px;
-      background: rgba(0, 0, 0, 0.2);
-      color: white;
-      text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
-    opacity: 1;
-    }
-    
-    .pixel-perfect-overlay-image {
-
-      display: inline-block;
-      padding: px px;
- 
-     
-    }
-    
-.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter {
-position: relative;
-z-index:calc(infinity);
-transform: rotate3d(-5, -1, 0, 20deg);
-	
-    }
- .pixel-perfect-overlay-ex {
-	position: relative;
-        z-index:calc(infinity);		
-    }
-
-
-		
-    #pixel-perfect-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-family: Arial;
-    font-size: 12px;
-    z-index: 2147483647; /* 最上位のz-indexに設定 */
-mix-blend-mode: normal; 
-    }
-
-
-    #pixel-perfect-container .pixel-perfect-switch {
-      position: fixed;
-　　　 z-index:calc(infinity);
-      right: 30px;
-      top: 30px;
-      font-size: 20px;
-      font-weight: bold;
-      cursor: pointer;
-
-    }
-
-    #pixel-perfect-container .pixel-perfect-overlay {
-      position: absolute;
-      background-size: cover;
-      display: block;
-      top: 0;
-      left: 0;
-      opacity: 0.8;
-      cursor: move;
-
-    }
 
     
     .pixel-perfect-hidden {
@@ -352,7 +459,8 @@ mix-blend-mode: normal;
     }
     
 #pixel-perfect-container .pixel-perfect-panel {
-  position: fixed;
+    z-index: 2147483647; /* 最上位のz-indexに設定 */ 
+    position: fixed;
     transform: rotateX(15deg) rotateY(-20deg);
     top: 5px;
     right: 5px;
@@ -364,8 +472,6 @@ mix-blend-mode: normal;
     border-radius: 15px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     border-right: 2px solid rgba(255, 255, 255, 0.5);
-    z-index: 2147483647; /* 最上位のz-indexに設定 */
-
 }
 
 #pixel-perfect-container .pixel-perfect-panel > div {
@@ -456,6 +562,8 @@ color: white;
       text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
     opacity: 1;
     }
+
+
     
     .glitch {
     position: relative;
