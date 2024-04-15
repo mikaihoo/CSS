@@ -173,7 +173,7 @@ z-index: 2147483646;
       -webkit-border-radius: 11px;
     opacity: 1;
     }
-    button::after {
+    .button::after {
  padding: 7px 0px;
  font-size: 100%;
  background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
@@ -187,7 +187,7 @@ z-index: 2147483646;
  opacity: 0.6;
 }
 
-button::after {
+.button::after {
  --slice-0: inset(50% 50% 50% 50%);
  --slice-1: inset(80% -6px 0 0);
  --slice-2: inset(50% -6px 30% 0);
