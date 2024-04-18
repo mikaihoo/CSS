@@ -1,5 +1,6 @@
 #inputFile {
     position: relative;
+	display: inline-block;
 		 margin: 0px auto;
     text-align: center;
 		background-size: auto auto;
