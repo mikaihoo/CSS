@@ -1,13 +1,13 @@
 #inputFile {
-z-index: 2147483646;
+		z-index: 2147483646;
     position: relative;
     padding: 70px 0 0px;
-margin: 0px auto;
-background-size: auto auto;
-border-radius: 20px;
+		 margin: 0px auto;
+    text-align: center;
+		background-size: auto auto;
+		border-radius: 20px;
   color: red;
-  margin: 0px auto;
-
+  margin: 3px auto;
     top: 0;
     left: 0;
     width: 145px;
@@ -23,8 +23,7 @@ border-radius: 20px;
     position: absolute;
 		border-radius: 20px;
   color: red;
-  margin: 0px auto;
-  text-align: center;
+  margin: 3px auto;
     top: 0;
     left: 0;
     width: 145px;
