@@ -2,7 +2,7 @@
 text-align: center;
 color: red;
     width: 145px;
-
+    height: 100px;
 margin: 0px auto;
     position: relative;
     display: inline-block;
@@ -39,9 +39,7 @@ background: rgba(22, 165, 191, 0.6);
 
 
 #inputFileWrap {
-    width: 145px;
-    height: 100px;
-		 margin: 0px auto;
+    margin: 0px auto;
     position: relative;
     display: inline-block;
 		background-size: auto auto;
