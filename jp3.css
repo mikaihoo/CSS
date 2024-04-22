@@ -1,6 +1,7 @@
 #dropArea {
 text-align: center;
 white-space: normal;
+word-wrap:break-word
 color: red;
     width: 145px;
     height: 100px;
