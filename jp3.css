@@ -428,10 +428,9 @@ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0p
 #pixel-perfect-container .pixel-perfect-panel-footer {
 padding: 0px;
 cursor: move;
-background-size: auto  auto;
-background-color: rgba(255, 255, 255, 0);
-animation: blinkShadowsFilter 8s ease-in infinite;
-opacity: 1;
+background-size: auto auto;
+transform-style: preserve-3d;
+color: white;
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a {
 background-size: auto auto;
@@ -593,4 +592,3 @@ clip: rect(30px, 9999px, 61px, 0)
 clip: rect(90px, 9999px, 79px, 0)
 }
 }
-
