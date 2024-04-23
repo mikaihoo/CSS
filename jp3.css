@@ -431,7 +431,6 @@ cursor: move;
 background-size: auto  auto;
 background-color: rgba(255, 255, 255, 0);
 animation: blinkShadowsFilter 8s ease-in infinite;
--webkit-border-radius: 11px;
 opacity: 1;
 }
 #pixel-perfect-container .pixel-perfect-panel-footer a {
