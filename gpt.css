@@ -1,0 +1,170 @@
+/* 共通のプロパティ */
+#dropArea,
+#uploadFile,
+#inputFileWrap,
+#btnInputFile,
+#btnChangeFile,
+.button,
+.pixel-perfect-overlay-btn,
+.pixel-perfect-settings-btn,
+.pixel-perfect-overlay {
+    width: 145px;
+    height: 100px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+#dropArea,
+#uploadFile {
+    position: relative;
+    background-size: auto auto;
+}
+
+#dropArea {
+    text-align: center;
+    white-space: normal;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    color: red;
+    opacity: 0.8;
+    transition: all 0.25s cubic-bezier(0.21, 0.51, 0.51, 1);
+}
+
+#dropArea.dragover {
+    border: 2px solid #16a5bf;
+    background: rgba(22, 165, 191, 0.6);
+}
+
+#uploadFile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#inputFileWrap {
+    position: relative;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+#btnInputFile,
+#btnChangeFile {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#btnChangeFile {
+    display: none;
+}
+
+#btnInputFile span,
+#btnChangeFile span {
+    position: relative;
+    z-index: 2;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #333;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#upFileWrap.selected #btnInputFile {
+    display: none;
+}
+
+#upFileWrap.selected #btnChangeFile {
+    display: table;
+}
+
+/* 共通のプロパティ */
+button,
+button::after,
+.glitch {
+    padding: 7px 0;
+    font-size: 100%;
+    background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 1;
+    box-shadow: 6px 0 0 #00e6f6;
+    outline: transparent;
+    position: relative;
+    opacity: 0.6;
+}
+
+button::after {
+    content: "HOVER ME";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+    text-shadow: -3px -3px 0 #f8f005, 3px 3px 0 #00e6f6;
+    clip-path: inset(50% 50% 50% 50%);
+}
+
+button:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+}
+
+/* 共通のプロパティ */
+.pixel-perfect-overlay-btn,
+.pixel-perfect-settings-btn,
+.pixel-perfect-overlay {
+    border: solid 2px black;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-shadow: black 2px 0 0, black -2px 0 0, black 0 -2px 0, black 0 2px 0, black 2px 2px 0, black -2px 2px 0, black 2px -2px 0, black -2px -2px 0, black 1px 2px 0, black -1px 2px 0, black 1px -2px 0, black -1px -2px 0, black 2px 1px 0, black -2px 1px 0, black 2px -1px 0, black -2px -1px 0, black 1px 1px 0, black -1px 1px 0, black 1px -1px 0, black -1px -1px 0;
+}
+
+/* 追加のプロパティ */
+.pixel-perfect-overlay,
+.pixel-perfect-hidden,
+.pixel-perfect-overlay-ex {
+    z-index: 9999;
+}
+
+/* 追加のプロパティ */
+#blend-mode-buttons {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10000;
+    mix-blend-mode: luminosity;
+}
+
+/* 追加のプロパティ */
+#pixel-perfect-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* 追加のプロパティ */
+#pixel-perfect-container .pixel-perfect-switch {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
