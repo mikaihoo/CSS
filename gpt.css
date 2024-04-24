@@ -1,156 +1,17 @@
-/* 共通のプロパティ */
-#dropArea,
-#uploadFile,
-#inputFileWrap,
-#btnInputFile,
-#btnChangeFile, {
-    width: 145px;
-    height: 100px;
-    border-radius: 20px;
-    display: block;
-    margin: 0 auto;
-}
-.button,
-.pixel-perfect-overlay-btn,
-.pixel-perfect-settings-btn,
-.pixel-perfect-overlay {
-
-}
-
-#dropArea,
-#uploadFile {
+.pixel-perfect-overlay-opacity,
+.pixel-perfect-overlay-scale,
+.pixel-perfect-overlay-rotate.pixel,
+.perfect-overlay-filter {
     position: relative;
-    background-size: auto auto;
+    z-index: infinity;
+    transform: rotate3d(-5, -1, 0, 20deg);
 }
 
-#dropArea {
-    text-align: center;
-    white-space: normal;
-    line-height: 1.5em;
-    word-wrap: break-word;
-    color: red;
-    opacity: 0.8;
-    transition: all 0.25s cubic-bezier(0.21, 0.51, 0.51, 1);
-}
-
-#dropArea.dragover {
-    border: 2px solid #16a5bf;
-    background: rgba(22, 165, 191, 0.6);
-}
-
-#uploadFile {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-
-#inputFileWrap {
-    position: relative;
-    display: inline-block;
-    opacity: 0.8;
-}
-
-#btnInputFile,
-#btnChangeFile {
-    display: table;
-    width: 100%;
-    margin: 0 auto;
-}
-
-#btnChangeFile {
-    display: none;
-}
-
-#btnInputFile span,
-#btnChangeFile span {
-    position: relative;
-    z-index: 2;
-    display: table-cell;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #333;
-    border-radius: 20px;
-    background: #333;
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    line-height: 1;
-    font-weight: bold;
-    vertical-align: middle;
-}
-
-#upFileWrap.selected #btnInputFile {
-    display: none;
-}
-
-#upFileWrap.selected #btnChangeFile {
-    display: table;
-}
-
-/* 共通のプロパティ */
-button,
-button::after,
-.glitch {
-    padding: 7px 0;
-    font-size: 100%;
-    background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
-    border: 0;
-    color: #fff;
-    letter-spacing: 3px;
-    line-height: 1;
-    box-shadow: 6px 0 0 #00e6f6;
-    outline: transparent;
-    position: relative;
-    opacity: 0.6;
-}
-
-button::after {
-    content: "HOVER ME";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
-    text-shadow: -3px -3px 0 #f8f005, 3px 3px 0 #00e6f6;
-    clip-path: inset(50% 50% 50% 50%);
-}
-
-button:hover::after {
-    animation: 1s glitch;
-    animation-timing-function: steps(2, end);
-}
-
-/* 共通のプロパティ */
-.pixel-perfect-overlay-btn,
-.pixel-perfect-settings-btn,
-{
-    border: solid 2px black;
-    border-radius: 3px;
-    background: rgba(0, 0, 0, 0.2);
-    color: white;
-    text-shadow: black 2px 0 0, black -2px 0 0, black 0 -2px 0, black 0 2px 0, black 2px 2px 0, black -2px 2px 0, black 2px -2px 0, black -2px -2px 0, black 1px 2px 0, black -1px 2px 0, black 1px -2px 0, black -1px -2px 0, black 2px 1px 0, black -2px 1px 0, black 2px -1px 0, black -2px -1px 0, black 1px 1px 0, black -1px 1px 0, black 1px -1px 0, black -1px -1px 0;
-}
-
-/* 追加のプロパティ */
-.pixel-perfect-overlay,
-.pixel-perfect-hidden,
 .pixel-perfect-overlay-ex {
-    z-index: 9999;
+    position: relative;
+    z-index: infinity;
 }
 
-/* 追加のプロパティ */
-#blend-mode-buttons {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10000;
-    mix-blend-mode: luminosity;
-}
-
-/* 追加のプロパティ */
 #pixel-perfect-container {
     position: absolute;
     top: 0;
@@ -160,13 +21,242 @@ button:hover::after {
     font-size: 12px;
 }
 
-/* 追加のプロパティ */
 #pixel-perfect-container .pixel-perfect-switch {
     position: fixed;
-    z-index: 9999;
+    z-index: infinity;
     right: 30px;
     top: 30px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+
+#pixel-perfect-container .pixel-perfect-overlay {
+    position: absolute;
+    background-size: cover;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    cursor: move;
+    z-index: 9999; 
+}
+
+.pixel-perfect-overlay {
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure it's always on top */
+    mix-blend-mode: hard-light; /* Default blend mode */
+}
+
+/* Additional CSS for button container */
+#blend-mode-buttons {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10000; /* Ensure it's above overlay */
+    mix-blend-mode: luminosity; 
+}
+
+#blend-mode-buttons button {
+    margin-right: 10px;
+}
+
+.pixel-perfect-hidden {
+    display: none !important;
+}
+
+#pixel-perfect-container .pixel-perfect-panel {
+    z-index: 2147483647; /* 最上位のz-indexに設定 */
+    position: fixed;
+    transform: rotateX(15deg) rotateY(-20deg);
+    top: 5px;
+    right: 5px; /* 左右変更 */
+    width: 150px;
+    transform-style: preserve-3d;
+    background-size: auto auto;
+    text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+    background: linear-gradient(0deg, rgba(79, 96, 251, 0.2) 0%, rgba(18, 18, 18, 0.4) 100%);
+    border-radius: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#pixel-perfect-container .pixel-perfect-panel > div {
+    position: relative;
+    color: white;
+    text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-footer {
+    padding: 0px;
+    cursor: move;
+    background-size: auto auto;
+    transform-style: preserve-3d;
+    color: white;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-footer a {
+    background-size: auto auto;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-footer a:hover,
+#pixel-perfect-container .pixel-perfect-panel-footer a:link,
+#pixel-perfect-container .pixel-perfect-panel-footer a:focus,
+#pixel-perfect-container .pixel-perfect-panel-footer a:active {
+    background-size: auto auto;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-main {
+    z-index: 9999;
+    background-size: auto auto;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-main > div {
+    padding: 6px 0;
+    background-size: auto auto;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 5px;
+    border-radius: 0 0 0 5px;
+    cursor: pointer;
+    outline: 0;
+    color: red;
+    filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
+    opacity: 0.9;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings {
+    padding: 0px 0;
+    background-size: auto auto;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings fieldset {
+    border: 0;
+    margin: 0;
+    padding: 2px 0;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings input {
+    background-color: rgba(215, 44, 44, 0.2);
+    background-size: auto auto;
+    border: 3px solid #333;
+    display: inline-block;
+    padding: 0px 0;
+    width: 40px;
+    color: black;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings button {
+    background-size: auto auto;
+    color: white;
+    padding: 2px 6px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Animation keyframes */
+@keyframes crack1 {
+    0% {
+        transform: translate(-5%, -5%);
+    }
+    20% {
+        transform: translate(-5%, -5%);
+    }
+    30% {
+        transform: translate(0%, 0%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes crack2 {
+    0% {
+        transform: translate(5%, 5%);
+    }
+    20% {
+        transform: translate(5%, 5%);
+    }
+    30% {
+        transform: translate(0%, 0%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes blinkShadowsFilter {
+    0% {
+        -webkit-filter: drop-shadow(0 0 0 rgba(244, 234, 234, 0.95));
+        filter: drop-shadow(0 0 0 rgba(244, 234, 234, 0.95));
+    }
+    50% {
+        -webkit-filter: drop-shadow(0 0 2px rgba(244, 234, 234, 0.95));
+        filter: drop-shadow(0 0 2px rgba(244, 234, 234, 0.95));
+    }
+    100% {
+        -webkit-filter: drop-shadow(0 0 0 rgba(244, 234, 234, 0.95));
+        filter: drop-shadow(0 0 0 rgba(244, 234, 234, 0.95));
+    }
 }
