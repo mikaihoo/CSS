@@ -3,16 +3,18 @@
 #uploadFile,
 #inputFileWrap,
 #btnInputFile,
-#btnChangeFile,
-.button,
-.pixel-perfect-overlay-btn,
-.pixel-perfect-settings-btn,
-.pixel-perfect-overlay {
+#btnChangeFile, {
     width: 145px;
     height: 100px;
     border-radius: 20px;
     display: block;
     margin: 0 auto;
+}
+.button,
+.pixel-perfect-overlay-btn,
+.pixel-perfect-settings-btn,
+.pixel-perfect-overlay {
+
 }
 
 #dropArea,
@@ -124,7 +126,7 @@ button:hover::after {
 /* 共通のプロパティ */
 .pixel-perfect-overlay-btn,
 .pixel-perfect-settings-btn,
-.pixel-perfect-overlay {
+{
     border: solid 2px black;
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.2);
