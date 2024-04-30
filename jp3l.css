@@ -1,0 +1,592 @@
+#dropArea {
+text-align: center;
+white-space: normal;
+line-height: 1.5em;
+word-wrap:break-word
+color: red;
+    width: 145px;
+    height: 100px;
+padding: px px;
+margin: 0px auto;
+    position: relative;
+    display: inline-block;
+background-size: auto auto;
+border-radius: 20px;
+opacity: 0.8;
+transition: all 0.25s cubic-bezier(0.21, 0.51, 0.51, 1);
+opacity: 0.8;
+		
+}
+
+#dropArea.dragover {
+border: 2px solid #16a5bf;
+background: rgba(22, 165, 191, 0.6);
+    
+}
+
+#uploadFile {
+	    width: 145px;
+    height: 100px;
+		 margin: 0px auto;
+		border-radius: 20px;
+    position: absolute;
+		 margin: 0px auto;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 145px;
+    height: 100px;
+    opacity: 0;
+		background-size: auto auto;
+		border-radius: 20px;
+}
+
+
+#inputFileWrap {
+    margin: 0px auto;
+    position: relative;
+    display: inline-block;
+		background-size: auto auto;
+		border-radius: 20px;
+opacity: 0.8;
+}
+
+#btnInputFile,
+#btnChangeFile {
+    display: table;
+    width: 100%;
+margin: 0px auto;
+		background-size: auto auto;
+		border-radius: 20px;
+}
+
+#btnChangeFile {
+    display: none;
+}
+
+
+#btnInputFile span,
+#btnChangeFile span {
+    position: relative;
+    z-index: 2;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: #333;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    vertical-align: middle;
+		background-size: auto auto;
+}
+
+#upFileWrap.selected #btnInputFile {
+    display: none;
+}
+
+#upFileWrap.selected #btnChangeFile {
+    display: table;
+}
+
+
+
+button,
+button::after {
+ padding: 7px 0px;
+ font-size: 100%;
+ background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+ border: 0;
+ color: #fff;
+ letter-spacing: 3px;
+ line-height: 1;
+ box-shadow: 6px 0px 0px #00e6f6;
+ outline: transparent;
+ position: relative;
+ opacity: 0.6;
+}
+
+button::after {
+ --slice-0: inset(50% 50% 50% 50%);
+ --slice-1: inset(80% -6px 0 0);
+ --slice-2: inset(50% -6px 30% 0);
+ --slice-3: inset(10% -6px 85% 0);
+ --slice-4: inset(40% -6px 43% 0);
+ --slice-5: inset(80% -6px 5% 0);
+ content: "HOVER ME";
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+ text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+ clip-path: var(--slice-0);
+}
+
+button:hover::after {
+ animation: 1s glitch;
+ animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+ 0% {
+  clip-path: var(--slice-1);
+  transform: translate(-20px, -10px);
+ }
+
+ 10% {
+  clip-path: var(--slice-3);
+  transform: translate(10px, 10px);
+ }
+
+ 20% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 10px);
+ }
+
+ 30% {
+  clip-path: var(--slice-3);
+  transform: translate(0px, 5px);
+ }
+
+ 40% {
+  clip-path: var(--slice-2);
+  transform: translate(-5px, 0px);
+ }
+
+ 50% {
+  clip-path: var(--slice-3);
+  transform: translate(5px, 0px);
+ }
+
+ 60% {
+  clip-path: var(--slice-4);
+  transform: translate(5px, 10px);
+ }
+
+ 70% {
+  clip-path: var(--slice-2);
+  transform: translate(-10px, 10px);
+ }
+
+ 80% {
+  clip-path: var(--slice-5);
+  transform: translate(20px, -10px);
+ }
+
+ 90% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 0px);
+ }
+
+ 100% {
+  clip-path: var(--slice-1);
+  transform: translate(0);
+ }
+}
+
+
+x1 {
+	 position: relative;
+	 transform-style: preserve-3d;
+    position: absolute;
+     --color: #00A97F;
+     background-color: transparent;
+     border-radius: .3em;
+     overflow: hidden;
+     cursor: pointer;
+     transition: .5s;
+     font-family: inherit;
+     text-transform: uppercase;
+     color: var(--color);
+    opacity: 0.7;
+    }
+    x1 span {
+      display: inline-block;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      padding: 5px 10px;
+      outline: none;
+      filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
+        
+    }
+    
+    
+ m1 {
+display: inline-block;
+position: relative;
+z-index: 2147483646;
+opacity:0.8 ;
+top: 0%;
+left: 0%;
+font-size: calc(0.4em + 0.8vw );
+font-weight: 0.5em;
+color: transparent;
+-webkit-text-stroke: 2px rgba(255, 255, 255, 0.3);
+text-transform: uppercase;
+user-select: none;
+white-space: nowrap;
+filter: blur(0.007em);
+animation: shake 2.5s linear infinite;
+} 
+    
+    
+    
+    m1 span {
+    display: inline-block;
+    position: absolute;
+    
+    
+    }
+    m1::before,
+    m1::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    m1::before {
+        animation: crack1 2.5s linear infinite;
+        -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+                clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+    }
+    
+    m1::after {
+        animation: crack2 2.5s linear infinite;
+        -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+                clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+    }
+    
+    
+    @keyframes shake {
+        5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+            filter: blur(0.018em);
+            transform: translateY(0.018em) rotate(0deg);
+        }
+    
+        10%, 30%, 40%, 50%, 70%, 80%, 90% {
+            filter: blur(0.01em);
+            transform: translateY(-0.018em) rotate(0deg);
+        }
+    
+        20%, 60% {
+            filter: blur(0.03em);
+            transform: translate(-0.018em, 0.018em) rotate(0deg);
+        }
+    
+        45%, 85% {
+            filter: blur(0.03em);
+            transform: translate(0.018em, -0.018em) rotate(0deg);
+        }
+    
+        100% {
+            filter: blur(0.007em);
+            transform: translate(0) rotate(-0.5deg);
+        }
+    }
+    
+    @keyframes crack1 {
+        0%, 95% {
+            transform: translate(-50%, -50%);
+        }
+    
+        100% {
+            transform: translate(-51%, -48%);
+        }
+    }
+    
+    @keyframes crack2 {
+        0%, 95% {
+            transform: translate(-50%, -50%);
+        }
+    
+        100% {
+            transform: translate(-49%, -53%);
+        }
+    }
+
+
+    .button {
+    background-size: auto  auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
+     animation: blinkShadowsFilter 8s ease-in infinite;
+      -webkit-border-radius: 11px;
+    opacity: 1;
+    }
+ 
+
+   .pixel-perfect-overlay-btn {
+display: inline-block;
+padding: px px;
+border: solid 2px black;
+border-radius: 3px;
+background: rgba(0, 0, 0, 0.2);
+color: white;
+text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+opacity: 1;
+} 
+    
+ .pixel-perfect-settings-btn {
+display: inline-block;
+padding: px px;
+border: solid 2px black;
+border-radius: 3px;
+background: rgba(0, 0, 0, 0.2);
+color: white;
+text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+opacity: 1;
+}
+.pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter {
+position: relative;
+z-index:calc(infinity);
+transform: rotate3d(-5, -1, 0, 20deg);
+} 
+.pixel-perfect-overlay-ex {
+position: relative;
+z-index:calc(infinity);
+}
+     #pixel-perfect-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 12px;
+
+    }
+    #pixel-perfect-container .pixel-perfect-switch {
+      position: fixed;
+　　　 z-index:calc(infinity);
+      right: 30px;
+      top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+
+    }
+
+   #pixel-perfect-container .pixel-perfect-overlay {
+      position: absolute;
+      background-size: cover;
+      display: block;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      cursor: move;
+z-index: 9999; 
+    }
+ .pixel-perfect-overlay {
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure it's always on top */
+mix-blend-mode: hard-light; /* Default blend mode */
+}
+	
+/* Additional CSS for button container */
+#blend-mode-buttons {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+　z-index: 10000; /* Ensure it's above overlay */
+　　mix-blend-mode: luminosity; 
+}
+#blend-mode-buttons button {
+    margin-right: 10px;
+}
+
+.pixel-perfect-hidden {
+display: none !important;
+}
+#pixel-perfect-container .pixel-perfect-panel {
+z-index: 2147483647; /* 最上位のz-indexに設定 */
+    position: fixed;
+transform: rotateX(15deg) rotateY(-20deg);
+top: 5px;
+left: 5px; /* 左右変更 */
+width: 150px;
+transform-style: preserve-3d;
+background-size: auto auto;
+text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+background: linear-gradient(0deg, rgba(79, 96, 251, 0.2) 0%, rgba(18, 18, 18, 0.4) 100%);
+border-radius: 15px;
+border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
+#pixel-perfect-container .pixel-perfect-panel > div {
+position: relative;
+color: white;
+text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+}
+#pixel-perfect-container .pixel-perfect-panel-footer {
+padding: 0px;
+cursor: move;
+background-size: auto auto;
+transform-style: preserve-3d;
+
+}
+#pixel-perfect-container .pixel-perfect-panel-footer a {
+background-size: auto auto;
+}
+#pixel-perfect-container .pixel-perfect-panel-footer a:hover, #pixel-perfect-container .pixel-perfect-panel-footer a:link, #pixel-perfect-container .pixel-perfect-panel-footer a:focus, #pixel-perfect-container .pixel-perfect-panel-footer a:active {
+background-size: auto auto;
+}
+#pixel-perfect-container .pixel-perfect-panel-main {
+　　　 z-index: 9999;
+background-size: auto auto;
+}
+#pixel-perfect-container .pixel-perfect-panel-main > div {
+padding: 6px 0;
+background-size: auto auto;
+}
+#pixel-perfect-container .pixel-perfect-panel-close {
+position: absolute;
+top: 0;
+right: 0;
+padding: 3px 5px;
+border-radius: 0 0 0 5px;
+cursor: pointer;
+outline: 0;
+color: red;
+filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
+opacity: 0.9;
+}
+#pixel-perfect-container .pixel-perfect-panel-settings {
+padding: 0px 0;
+background-size: auto auto;
+}
+#pixel-perfect-container .pixel-perfect-panel-settings fieldset {
+border: 0;
+margin: 0;
+padding: 2px 0;
+}
+#pixel-perfect-container .pixel-perfect-panel-settings label {
+display: inline-block;
+margin: 0;
+padding: 0;
+width: 50px;
+}
+
+#pixel-perfect-container .pixel-perfect-panel-settings input {
+background-color: rgba(215, 44, 44, 0.2);
+background-size: auto auto;
+border: 3px  solid #333;
+display: inline-block;
+padding: 0;
+width: 145px;
+margin: 0px auto;
+font-size: 100%;
+vertical-align: baseline;
+*vertical-align: middle;
+border-radius: 20px;
+outline: none;
+padding: 0px 0px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+color: white;
+text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px, black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px, black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px, black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+opacity: 1;
+}
+
+.glitch {
+position: relative;
+z-index: 2147483646;
+display: block;
+opacity: 0.8;
+font-size: calc(0.4em + 0.4vw);
+font-weight: 400;
+transform: rotate3d(1, 1, 0, 30deg);
+background-size: auto auto;
+　　background-color: rgba(255, 255, 255, 0);
+background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(250, 215, 87, 0.24) 6px, rgba(250, 215, 87, 0.24) 7px);
+user-select: none;
+white-space: nowrap;
+filter: blur(0.007em);
+animation: shake 2.5s linear infinite;
+}
+.glitch::after,
+.glitch::before {
+white-space: pre-wrap;
+content: attr(data-text);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.glitch::before {
+text-shadow: -3px 0 rgba(255, 255, 0, 0.6);
+animation: 2.5s linear infinite alternate-reverse glitch1;
+}
+.glitch::after {
+text-shadow: 3px 0 rgba(0, 255, 0, 0.6);
+animation: 2.5s linear infinite alternate-reverse glitch2;
+}
+@keyframes glitch1 {
+0% {
+clip: rect(39px, 9999px, 3px, 0)
+}
+10% {
+clip: rect(96px, 9999px, 14px, 0)
+}
+20% {
+clip: rect(5px, 9999px, 69px, 0)
+}
+30% {
+clip: rect(26px, 9999px, 56px, 0)
+}
+40% {
+clip: rect(94px, 9999px, 50px, 0)
+}
+60% {
+clip: rect(58px, 9999px, 86px, 0)
+}
+70% {
+clip: rect(9px, 9999px, 31px, 0)
+}
+80% {
+clip: rect(89px, 9999px, 23px, 0)
+}
+90% {
+clip: rect(53px, 9999px, 54px, 0)
+}
+100% {
+clip: rect(33px, 9999px, 54px, 0)
+}
+}
+@keyframes glitch2 {
+10% {
+clip: rect(96px, 9999px, 85px, 0)
+}
+20% {
+clip: rect(71px, 9999px, 48px, 0)
+}
+30% {
+clip: rect(5px, 9999px, 96px, 0)
+}
+40% {
+clip: rect(99px, 9999px, 67px, 0)
+}
+50% {
+clip: rect(13px, 9999px, 96px, 0)
+}
+70% {
+clip: rect(55px, 9999px, 30px, 0)
+}
+80% {
+clip: rect(58px, 9999px, 86px, 0)
+}
+90% {
+clip: rect(30px, 9999px, 61px, 0)
+}
+100% {
+clip: rect(90px, 9999px, 79px, 0)
+}
+}
