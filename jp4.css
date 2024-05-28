@@ -408,10 +408,10 @@ display: none !important;
 #pixel-perfect-container .pixel-perfect-panel {
 z-index: 2147483647; /* 最上位のz-indexに設定 */
 display: grid;
-    position: fixed;
+position: absolute;
 transform: rotateX(15deg) rotateY(-20deg);
 top: 5px;
-right: 5px + 1; /* 左右変更 */
+right: 5px; /* 左右変更 */
 width: 150px;
 transform-style: preserve-3d;
 background-size: auto auto;
