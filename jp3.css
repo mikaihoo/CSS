@@ -409,7 +409,7 @@ display: none !important;
 z-index: 2147483647; /* 最上位のz-indexに設定 */
     position: fixed;
 transform: rotateX(15deg) rotateY(-20deg);
-top: 5px * panelCount;
+top: 5px + offset * panelCount;
 right: 5px; /* 左右変更 */
 width: 150px;
 transform-style: preserve-3d;
