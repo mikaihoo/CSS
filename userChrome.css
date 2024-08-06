@@ -1,0 +1,4 @@
+/* Hidden Firefox Top TabBar - https://blog.halpas.com/archives/11879 */
+#TabsToolbar {
+    visibility: collapse !important;
+}
