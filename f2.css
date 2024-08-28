@@ -384,6 +384,7 @@ z-index:calc(infinity);
       cursor: move;
       z-index: 9999; 
       isolation: isolate;
+      mix-blend-mode: plus-lighter;
     }
 
  .pixel-perfect-overlay {
@@ -391,6 +392,7 @@ z-index:calc(infinity);
     left: 0;
     z-index: 9999; /* Ensure it's always on top */
     isolation: isolate;
+    mix-blend-mode: plus-lighter;
 }
 	
 /* Additional CSS for button container */
