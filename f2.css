@@ -382,15 +382,14 @@ z-index:calc(infinity);
       left: 0;
       opacity: 0.8;
       cursor: move;
-z-index: 9999; 
-mix-blend-mode: plus-lighter;
-	   isolation: isolate;
+      z-index: 9999; 
+      isolation: isolate;
     }
+
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
     z-index: 9999; /* Ensure it's always on top */
-    mix-blend-mode: plus-lighter;
     isolation: isolate;
 }
 	
