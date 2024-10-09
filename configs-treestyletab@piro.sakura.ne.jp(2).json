@@ -1,0 +1,72 @@
+{
+  "__ConfigsMigration__userValeusSameToDefaultAreCleared": true,
+  "animationForce": true,
+  "autoAttachSameSiteOrphan": 2,
+  "autoGroupNewTabsFromFirefoxView": true,
+  "autoGroupNewTabsFromOthers": true,
+  "cachedExternalAddons": [
+    "tst-bookmarks-subpanel@piro.sakura.ne.jp",
+    "tst-colored-tabs@murz"
+  ],
+  "configsVersion": 31,
+  "enableMacOSBehaviors": true,
+  "enableWindowsBehaviors": true,
+  "grantedRemovingTabIds": [
+    5
+  ],
+  "groupTabTemporaryStateForAPI": 2,
+  "iconColor": "dark",
+  "incognitoAllowedExternalAddons": [
+    "tst-colored-tabs@murz",
+    "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
+    "tst-more-tree-commands@piro.sakura.ne.jp",
+    "tst-bookmarks-subpanel@piro.sakura.ne.jp",
+    "tst-indent-line@piro.sakura.ne.jp",
+    "tst_colorize_tabs@emvaized.com",
+    "tst-active-tab-in-collapsed-tree@piro.sakura.ne.jp"
+  ],
+  "inheritContextualIdentityToChildTabMode": 1,
+  "inheritContextualIdentityToTabsFromExternalMode": 2,
+  "inheritContextualIdentityToUnopenableURLTabs": true,
+  "lastSelectedSubPanelProviderId": "tst-bookmarks-subpanel@piro.sakura.ne.jp",
+  "maxTreeLevel": 1,
+  "notifiedFeaturesVersion": 9,
+  "optionsExpandedSections": [
+    "section-appearance",
+    "section-newTab",
+    "section-advanced",
+    "section-drag",
+    "section-treeBehavior",
+    "section-addons",
+    "section-debug",
+    "section-contextMenu"
+  ],
+  "showContextualIdentitiesSelector": true,
+  "showDialogInSidebar": true,
+  "showExpertOptions": true,
+  "sidebarPosition": 1,
+  "sidebarPositionRighsideNotificationShown": true,
+  "sidebarWidthInWindow": {
+    "1": 172
+  },
+  "style": "photon",
+  "syncDevices": {
+    "device-1728450727092-3580": {
+      "id": "device-1728450727092-3580",
+      "name": "Windows の Floorp",
+      "icon": "device-desktop",
+      "timestamp": 1728451869585
+    },
+    "device-1641888037817-12521": {
+      "id": "device-1641888037817-12521",
+      "name": "Windows の Waterfox",
+      "icon": "device-desktop",
+      "timestamp": 1728448464239
+    }
+  },
+  "tabBunchesDetectionDelayOnNewWindow": -1,
+  "userStyleRules": "",
+  "userStyleRulesFieldHeight": "120px",
+  "userStyleRulesFieldTheme": "default",
+  "workaroundForBug1548949DroppedTabs": ""
+}
