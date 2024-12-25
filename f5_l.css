@@ -20,7 +20,6 @@ opacity: 0.8;
 border: 2px solid #16a5bf;
 background: rgba(22, 165, 191, 0.6);
 }
-
 #uploadFile {
 width: 145px;
 height: 100px;
@@ -270,8 +269,8 @@ animation: blinkShadowsFilter 8s ease-in infinite;
 opacity: 1;
 }
 .pixel-perfect-overlay-btn {
-position: absolute; /* ここをrelativeからabsoluteに変更 */
-z-index: 9999; /* z-indexで最前面に表示 */
+z-index: 1;
+display: inline-block;
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
@@ -281,8 +280,8 @@ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0p
 opacity: 1;
 }
 .pixel-perfect-settings-btn {
-position: absolute; /* ここをrelativeからabsoluteに変更 */
-z-index: 9999; /* z-indexで最前面に表示 */
+z-index: 1;
+display: inline-block;
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
@@ -292,8 +291,8 @@ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0p
 opacity: 1;
 }
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-filter2 {
-position: absolute; /* ここをrelativeからabsoluteに変更 */
-z-index: 9999; /* z-indexで最前面に表示 */
+position: relative;
+z-index: 1;
 transform: rotate3d(-5, -1, 0, 20deg);
 }
 .pixel-perfect-overlay-ex {
@@ -396,6 +395,7 @@ filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9
 opacity: 0.9;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings {
+display:flex;
 padding: 0px 0;
 background-size: auto auto;
 }
@@ -411,6 +411,7 @@ padding: 0;
 width: 50px;
 }
 #pixel-perfect-container .pixel-perfect-panel-settings input {
+display:flex;
 background-color: rgba(215, 44, 44, 0.2);
 background-size: auto auto;
 border: 3px solid #333;
