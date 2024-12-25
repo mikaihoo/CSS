@@ -384,7 +384,7 @@ display:flex
 
    #pixel-perfect-container .pixel-perfect-overlay {
       position: absolute;
-      z-index: 9999; 
+
       background-size: cover;
       display: block;
       top: 0;
@@ -398,7 +398,7 @@ display:flex
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-    z-index: 9999; 
+
 
 }
 	
