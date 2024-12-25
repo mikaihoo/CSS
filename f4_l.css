@@ -221,7 +221,7 @@ x1 {
  m1 {
   z-index: 1;
 display:flex
-display: inline-block;
+
 position: relative;
 opacity:0.8 ;
 top: 0%;
@@ -327,7 +327,7 @@ animation: shake 2.5s linear infinite;
    .pixel-perfect-overlay-btn {
 z-index: 1;
 display:flex
-display: inline-block;
+
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
@@ -340,7 +340,7 @@ opacity: 1;
  .pixel-perfect-settings-btn {
 z-index: 1;
 display:flex
-display: inline-block;
+
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
