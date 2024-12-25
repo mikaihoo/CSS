@@ -373,7 +373,7 @@ display:flex
     }
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
-
+display:flex
       right: 30px;
       top: 30px;
       font-size: 20px;
