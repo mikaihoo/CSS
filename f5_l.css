@@ -58,7 +58,7 @@ display: none;
 #btnInputFile span,
 #btnChangeFile span {
 position: relative;
-z-index: 1; 
+z-index: 2; 
 display: table-cell;
 width: 100%;
 height: 100%;
@@ -186,7 +186,7 @@ outline: none;
 filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
 }
 m1 {
-z-index: 1;
+z-index: 2;
 display: inline-block;
 position: relative;
 opacity:0.8 ;
@@ -270,7 +270,7 @@ animation: blinkShadowsFilter 8s ease-in infinite;
 opacity: 1;
 }
 .pixel-perfect-overlay-btn {
-z-index: 1;
+z-index: 2;
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -281,7 +281,7 @@ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0p
 opacity: 1;
 }
 .pixel-perfect-settings-btn {
-z-index: 1;
+z-index: 2;
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -293,14 +293,14 @@ opacity: 1;
 }
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-filter2 {
 position: relative;
-z-index: 1;
+z-index: 2;
 transform: rotate3d(-5, -1, 0, 20deg);
 }
 .pixel-perfect-overlay-ex {
 position: relative;
 }
 #pixel-perfect-container {
-z-index: 1;
+z-index: 2;
 position: absolute;
 top: 0;
 left: 0;
@@ -333,7 +333,7 @@ z-index: 9999;
 }
 /* Additional CSS for button container */
 #blend-mode-buttons {
-z-index: 1;
+z-index: 2;
 position: fixed;
 top: 20px;
 left: 20px;
@@ -345,7 +345,7 @@ margin-right: 10px;
 display: none !important;
 }
 #pixel-perfect-container .pixel-perfect-panel {
-z-index: 1;
+z-index: 2;
 position: fixed;
 transform: rotateX(15deg) rotateY(-20deg);
 top: 5px ; /*+ offset * panelCount*/
