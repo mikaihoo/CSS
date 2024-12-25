@@ -354,7 +354,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
-    z-index: 2;
+    z-index: 10002;
     position: absolute;
     top: 0;
     left: 0;
