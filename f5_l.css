@@ -1,26 +1,24 @@
 #dropArea {
-  text-align: center;
-  white-space: normal;
-  line-height: 1.5em;
-  word-wrap: break-word;
-  color: red;
-  width: 145px;
-  height: 100px;
-  padding: px px;
-  margin: 0px auto;
-  position: absolute; /* ここをrelativeからabsoluteに変更 */
-  top: 0; /* 必要に応じて位置を調整 */
-  left: 0; /* 必要に応じて位置を調整 */
-  z-index: 9999; /* z-indexで最前面に表示 */
-  background-size: auto auto;
-  border-radius: 20px;
-  opacity: 0.8;
-  transition: all 0.25s cubic-bezier(0.21, 0.51, 0.51, 1);
+text-align: center;
+white-space: normal;
+line-height: 1.5em;
+word-wrap:break-word
+color: red;
+width: 145px;
+height: 100px;
+padding: px px;
+margin: 0px auto;
+position: relative;
+display: inline-block;
+background-size: auto auto;
+border-radius: 20px;
+opacity: 0.8;
+transition: all 0.25s cubic-bezier(0.21, 0.51, 0.51, 1);
+opacity: 0.8;
 }
-
 #dropArea.dragover {
-  border: 2px solid #16a5bf;
-  background: rgba(22, 165, 191, 0.6);
+border: 2px solid #16a5bf;
+background: rgba(22, 165, 191, 0.6);
 }
 
 #uploadFile {
@@ -272,8 +270,8 @@ animation: blinkShadowsFilter 8s ease-in infinite;
 opacity: 1;
 }
 .pixel-perfect-overlay-btn {
-z-index: 1;
-display: inline-block;
+position: absolute; /* ここをrelativeからabsoluteに変更 */
+z-index: 9999; /* z-indexで最前面に表示 */
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
@@ -283,8 +281,8 @@ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0p
 opacity: 1;
 }
 .pixel-perfect-settings-btn {
-z-index: 1;
-display: inline-block;
+position: absolute; /* ここをrelativeからabsoluteに変更 */
+z-index: 9999; /* z-indexで最前面に表示 */
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
@@ -294,8 +292,8 @@ text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0p
 opacity: 1;
 }
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-filter2 {
-position: relative;
-z-index: 1;
+position: absolute; /* ここをrelativeからabsoluteに変更 */
+z-index: 9999; /* z-indexで最前面に表示 */
 transform: rotate3d(-5, -1, 0, 20deg);
 }
 .pixel-perfect-overlay-ex {
