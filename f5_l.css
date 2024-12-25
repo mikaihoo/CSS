@@ -186,7 +186,6 @@ filter: drop-shadow(4px 3px 2px ) drop-shadow(-5px -4px 5px );
 }
 m1 {
 z-index: 1;
-display:flex 
 display: inline-block;
 padding: px px;
 border: solid 2px black;
