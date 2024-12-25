@@ -219,6 +219,7 @@ x1 {
     
     
  m1 {
+  z-index: 1;
 display: inline-block;
 position: relative;
 opacity:0.8 ;
@@ -323,6 +324,7 @@ animation: shake 2.5s linear infinite;
  
 
    .pixel-perfect-overlay-btn {
+z-index: 1;
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -334,6 +336,7 @@ opacity: 1;
 } 
     
  .pixel-perfect-settings-btn {
+z-index: 1;
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -345,7 +348,7 @@ opacity: 1;
 }
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-filter2 {
 position: relative;
-
+z-index: 1;
 transform: rotate3d(-5, -1, 0, 20deg);
 } 
 
@@ -354,6 +357,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
+  z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -375,6 +379,7 @@ position: relative;
 
    #pixel-perfect-container .pixel-perfect-overlay {
       position: absolute;
+      z-index: 9999; 
       background-size: cover;
       display: block;
       top: 0;
@@ -388,12 +393,13 @@ position: relative;
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-
+    z-index: 9999; 
 
 }
 	
 /* Additional CSS for button container */
 #blend-mode-buttons {
+  z-index: 1;
     position: fixed;
     top: 20px;
     left: 20px;
@@ -408,7 +414,7 @@ position: relative;
 display: none !important;
 }
 #pixel-perfect-container .pixel-perfect-panel {
-
+  z-index: 1;
     position: fixed;
 transform: rotateX(15deg) rotateY(-20deg);
 top: 5px ; /*+ offset * panelCount*/
