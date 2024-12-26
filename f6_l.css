@@ -67,6 +67,7 @@ margin: 0px auto;
 
 #btnInputFile span,
 #btnChangeFile span {
+   z-index: 2; 
     position: relative;
     display: table-cell;
     width: 100%;
@@ -80,7 +81,7 @@ margin: 0px auto;
     line-height: 1;
     font-weight: bold;
     vertical-align: middle;
-		background-size: auto auto;
+    background-size: auto auto;
 }
 
 #upFileWrap.selected #btnInputFile {
@@ -499,7 +500,7 @@ opacity: 1;
 
 .glitch {
 position: relative;
-z-index: 2147483646;
+
 display: block;
 opacity: 0.8;
 font-size: calc(0.4em + 0.4vw);
