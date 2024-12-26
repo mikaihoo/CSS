@@ -354,7 +354,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
-    z-index: 10002;
+    z-index: 9999; 
     position: absolute;
     top: 0;
     left: 0;
@@ -398,7 +398,7 @@ position: relative;
     position: fixed;
     top: 20px;
     left: 20px;
- 　z-index: 1; /* Ensure it's above overlay */
+ 　z-index: 9999; 
 
 }
 #blend-mode-buttons button {
