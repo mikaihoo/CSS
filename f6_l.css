@@ -357,7 +357,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
-   z-index: 9999; 	
+
     position: absolute;
     top: 0;
     left: 0;
@@ -392,7 +392,7 @@ position: relative;
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-    z-index: 9999; /* Ensure it's always on top */
+
 
 }
 	
