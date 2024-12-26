@@ -409,7 +409,7 @@ position: relative;
 display: none !important;
 }
 #pixel-perfect-container .pixel-perfect-panel {
-z-index: 2147483647; /* 最上位のz-indexに設定 */
+/* 最上位のz-indexに設定 */
     position: fixed;
 transform: rotateX(15deg) rotateY(-20deg);
 top: 5px ; /*+ offset * panelCount*/
