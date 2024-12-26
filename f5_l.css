@@ -220,7 +220,7 @@ x1 {
  m1 {
 display: inline-block;
 position: relative;
-z-index: 2147483646;
+
 opacity:0.8 ;
 top: 0%;
 left: 0%;
@@ -398,7 +398,7 @@ position: relative;
     position: fixed;
     top: 20px;
     left: 20px;
- 　z-index: 10000; /* Ensure it's above overlay */
+ 　z-index: 1; /* Ensure it's above overlay */
 
 }
 #blend-mode-buttons button {
