@@ -68,7 +68,6 @@ margin: 0px auto;
 #btnInputFile span,
 #btnChangeFile span {
     position: relative;
-
     display: table-cell;
     width: 100%;
     height: 100%;
@@ -221,7 +220,7 @@ x1 {
  m1 {
 display: inline-block;
 position: relative;
-z-index: 2147483646;
+
 opacity:0.8 ;
 top: 0%;
 left: 0%;
@@ -314,6 +313,7 @@ animation: shake 2.5s linear infinite;
 
 
     .button {
+　z-index: 9999; 
     background-size: auto  auto;
     background-color: rgba(255, 255, 255, 0);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
@@ -324,6 +324,7 @@ animation: shake 2.5s linear infinite;
  
 
    .pixel-perfect-overlay-btn {
+ z-index: 9999; 
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -335,8 +336,8 @@ opacity: 1;
 } 
     
  .pixel-perfect-settings-btn {
+z-index: 9999; 
 display: inline-block;
- z-index: 9999;
 padding: px px;
 border: solid 2px black;
 border-radius: 3px;
@@ -356,8 +357,8 @@ position: relative;
 
 }
      #pixel-perfect-container {
+
     position: absolute;
-　　z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
@@ -367,7 +368,7 @@ position: relative;
     }
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
-　　　 
+
       right: 30px;
       top: 30px;
       font-size: 20px;
@@ -384,7 +385,7 @@ position: relative;
       left: 0;
       opacity: 0.8;
       cursor: move;
-
+      z-index: 9999; 
     
     }
 
@@ -411,7 +412,7 @@ position: relative;
 display: none !important;
 }
 #pixel-perfect-container .pixel-perfect-panel {
-/* 最上位のz-indexに設定 */
+
     position: fixed;
 transform: rotateX(15deg) rotateY(-20deg);
 top: 5px ; /*+ offset * panelCount*/
