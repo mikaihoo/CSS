@@ -315,7 +315,7 @@ animation: shake 2.5s linear infinite;
 
 
     .button {
-　z-index: 9999; 
+
     background-size: auto  auto;
     background-color: rgba(255, 255, 255, 0);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(202, 215, 87, 0.24) 6px, rgba(202, 215, 87, 0.24) 7px);
@@ -326,7 +326,7 @@ animation: shake 2.5s linear infinite;
  
 
    .pixel-perfect-overlay-btn {
- z-index: 9999; 
+
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -338,7 +338,7 @@ opacity: 1;
 } 
     
  .pixel-perfect-settings-btn {
-z-index: 9999; 
+
 display: inline-block;
 padding: px px;
 border: solid 2px black;
@@ -359,7 +359,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
- z-index: 9999; 
+ z-index: 1; 
     position: absolute;
     top: 0;
     left: 0;
