@@ -385,14 +385,14 @@ position: relative;
       left: 0;
       opacity: 0.8;
       cursor: move;
-      z-index: 10000; 
+      z-index: 9998; 
     
     }
 
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-
+z-index: 9998; 
 
 }
 	
@@ -401,7 +401,7 @@ position: relative;
     position: fixed;
     top: 20px;
     left: 20px;
-z-index: 10000; 
+z-index: 9998; 
 
 }
 #blend-mode-buttons button {
