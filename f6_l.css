@@ -93,7 +93,9 @@ margin: 0px auto;
 
 
 
-button,
+button, {
+	 z-index: 9999; 
+}
 button::after {
  padding: 7px 0px;
  font-size: 100%;
@@ -357,7 +359,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
-
+ z-index: 9999; 
     position: absolute;
     top: 0;
     left: 0;
