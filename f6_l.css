@@ -385,14 +385,14 @@ position: relative;
       left: 0;
       opacity: 0.8;
       cursor: move;
-      z-index: 9999; 
+  
     
     }
 
  .pixel-perfect-overlay {
     top: 0;
     left: 0;
-z-index: 9999; 
+
 
 }
 	
@@ -412,7 +412,7 @@ z-index: 9999;
 display: none !important;
 }
 #pixel-perfect-container .pixel-perfect-panel {
-z-index: 9999; 
+
     position: fixed;
 transform: rotateX(15deg) rotateY(-20deg);
 top: 5px ; /*+ offset * panelCount*/
