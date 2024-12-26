@@ -356,12 +356,12 @@ z-index:calc(infinity);
 }
      #pixel-perfect-container {
     position: absolute;
+   z-index: 9999; 
     top: 0;
     left: 0;
     width: 100%;
     font-family: Arial;
     font-size: 12px;
-
     }
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
