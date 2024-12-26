@@ -348,7 +348,7 @@ opacity: 1;
 }
 .pixel-perfect-overlay-opacity, .pixel-perfect-overlay-scale, .pixel-perfect-overlay-rotate.pixel, .perfect-overlay-filter, .pixel-perfect-overlay-filter2 {
 position: relative;
-
+z-index: 9999; 
 transform: rotate3d(-5, -1, 0, 20deg);
 } 
 
@@ -368,7 +368,7 @@ position: relative;
     }
     #pixel-perfect-container .pixel-perfect-switch {
       position: fixed;
-
+      z-index: 9999; 
       right: 30px;
       top: 30px;
       font-size: 20px;
