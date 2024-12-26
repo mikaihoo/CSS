@@ -93,9 +93,7 @@ margin: 0px auto;
 
 
 
-button, {
-	 z-index: 9999; 
-}
+button, 
 button::after {
  padding: 7px 0px;
  font-size: 100%;
@@ -359,7 +357,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
- z-index: 1; 
+ z-index: 9999; 
     position: absolute;
     top: 0;
     left: 0;
@@ -387,7 +385,7 @@ position: relative;
       left: 0;
       opacity: 0.8;
       cursor: move;
-      z-index: 9999; 
+      z-index: 10000; 
     
     }
 
@@ -403,7 +401,7 @@ position: relative;
     position: fixed;
     top: 20px;
     left: 20px;
-
+z-index: 10000; 
 
 }
 #blend-mode-buttons button {
