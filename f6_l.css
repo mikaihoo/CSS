@@ -67,8 +67,8 @@ margin: 0px auto;
 
 #btnInputFile span,
 #btnChangeFile span {
-   z-index: 2; 
     position: relative;
+    z-index: 2;
     display: table-cell;
     width: 100%;
     height: 100%;
@@ -81,7 +81,7 @@ margin: 0px auto;
     line-height: 1;
     font-weight: bold;
     vertical-align: middle;
-    background-size: auto auto;
+		background-size: auto auto;
 }
 
 #upFileWrap.selected #btnInputFile {
@@ -398,7 +398,7 @@ position: relative;
     position: fixed;
     top: 20px;
     left: 20px;
-　z-index: 10000; /* Ensure it's above overlay */
+
 
 }
 #blend-mode-buttons button {
@@ -442,7 +442,7 @@ background-size: auto auto;
 background-size: auto auto;
 }
 #pixel-perfect-container .pixel-perfect-panel-main {
-　　　 z-index: 9999;
+　　　
 background-size: auto auto;
 }
 #pixel-perfect-container .pixel-perfect-panel-main > div {
