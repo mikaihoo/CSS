@@ -61,6 +61,7 @@ margin: 0px auto;
 }
 
 #btnChangeFile {
+	z-index: 9999; 	
     display: none;
 }
 
@@ -220,8 +221,7 @@ x1 {
  m1 {
 display: inline-block;
 position: relative;
-
-opacity:0.8 ;
+z-index: 9999; 	
 top: 0%;
 left: 0%;
 font-size: calc(0.4em + 0.8vw );
@@ -357,7 +357,7 @@ position: relative;
 
 }
      #pixel-perfect-container {
-
+z-index: 9999; 	
     position: absolute;
     top: 0;
     left: 0;
